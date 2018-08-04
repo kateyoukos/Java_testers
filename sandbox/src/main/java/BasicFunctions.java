@@ -1,8 +1,8 @@
 public class BasicFunctions {
 
     public static void main(String[] args){
-        Point p1 = new Point(2, 6);
-        Point p2 = new Point(3, 8);
+        Point p1 = new Point(1, 7);
+        Point p2 = new Point(4, 4);
         //run method from current(BasicFunctions) Class
         System.out.println("Distance between point = " + distance(p1, p2));
         //run method from Point Class

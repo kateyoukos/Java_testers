@@ -46,8 +46,8 @@
       <file leaf-file-name="BasicFunctions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/BasicFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+            <state relative-caret-position="68">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -73,8 +73,8 @@
       <file leaf-file-name="PointTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/PointTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+            <state relative-caret-position="272">
+              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -422,9 +422,9 @@
       <list>
         <option value="$PROJECT_DIR$/sandbox/src/main/java/New.java" />
         <option value="$PROJECT_DIR$/sandbox/src/main/java/Point.java" />
-        <option value="$PROJECT_DIR$/sandbox/src/main/java/BasicFunctions.java" />
         <option value="$PROJECT_DIR$/sandbox/build.gradle" />
         <option value="$PROJECT_DIR$/sandbox/src/test/java/SquareTests.java" />
+        <option value="$PROJECT_DIR$/sandbox/src/main/java/BasicFunctions.java" />
         <option value="$PROJECT_DIR$/sandbox/src/test/java/PointTests.java" />
       </list>
     </option>
@@ -435,9 +435,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2043" />
-    <option name="y" value="13" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="533" />
+    <option name="y" value="125" />
     <option name="width" value="1228" />
     <option name="height" value="817" />
   </component>
@@ -521,7 +521,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PointTests">
+  <component name="RunManager">
     <configuration name="BasicFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicFunctions" />
       <module name="sandbox_main" />
@@ -655,8 +655,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PointTests" />
         <item itemvalue="Application.BasicFunctions" />
+        <item itemvalue="TestNG.PointTests" />
       </list>
     </recent_temporary>
   </component>
@@ -670,15 +670,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533375062609</updated>
-      <workItem from="1533375067099" duration="7097000" />
+      <workItem from="1533375067099" duration="7543000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PointTests - 2018.08.04 at 15h 54m 18s.xml">
+      <configuration name="PointTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PointTests - 2018.08.04 at 15h 55m 07s.xml">
+      <configuration name="PointTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PointTests - 2018.08.04 at 15h 56m 44s.xml">
+      <configuration name="PointTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PointTests - 2018.08.04 at 15h 57m 13s.xml">
+      <configuration name="PointTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PointTests - 2018.08.04 at 15h 58m 02s.xml">
+      <configuration name="PointTests" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7097000" />
+    <option name="totallyTimeSpent" value="7543000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
+    <frame x="533" y="125" width="1228" height="817" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -697,12 +715,12 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3227513" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3713851" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20916906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Gradle" visible="true" weight="0.27578798" />
+      <window_info anchor="right" id="Gradle" visible="true" weight="0.32962328" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -746,15 +764,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/BasicFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/PointTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+        <state relative-caret-position="272">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
