@@ -8,7 +8,7 @@ public class Point {
         this.b = b;
     }
 
-    public static double distanceMethodInPointClass(Point p1, Point p2){
-        return Math.sqrt(Math.pow((p2.b - p1.a), 2) + Math.pow((p2.b - p1.a), 2));
+    public double distanceMethodInPointClass(Point p1){
+        return Math.sqrt(Math.pow((this.b - p1.b), 2) + Math.pow((this.a - p1.a), 2));
     }
 }
