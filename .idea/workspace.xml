@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d18cb68-931c-414e-8c75-de76104d2beb" name="Default" comment="">
+    <list default="true" id="236d44c7-be7e-43b4-a215-9e1c1b6c8583" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_beust_jcommander_1_72.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_25_0_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_slickqa_testng_7_0_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_chrome_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_edge_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_firefox_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_ie_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_java_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_opera_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_remote_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_safari_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/sandbox.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/sandbox_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/sandbox_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/out/production/classes/New.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/New.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/BasicFunctions.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/addressbook-web-tests/.gradle/" />
+    <ignored path="$PROJECT_DIR$/addressbook-web-tests/build/" />
+    <ignored path="$PROJECT_DIR$/addressbook-web-tests/out/" />
     <ignored path="$PROJECT_DIR$/sandbox/.gradle/" />
     <ignored path="$PROJECT_DIR$/sandbox/build/" />
     <ignored path="$PROJECT_DIR$/sandbox/out/" />
+    <ignored path="$PROJECT_DIR$/.idea/.gradle/" />
+    <ignored path="$PROJECT_DIR$/.idea/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +63,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/sandbox$PointTests.ic" NAME="PointTests Coverage Results" MODIFIED="1533774760137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/.idea">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/addressbook-web-tests">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/sandbox">
       <ProjectState />
     </projectState>
@@ -30,69 +80,22 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="sandbox" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BasicFunctions.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/BasicFunctions.java">
+      <file leaf-file-name="ContactCreationTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/ContactCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/Point.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sandbox/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PointTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/PointTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,16 +103,52 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$/sandbox" value="D:\soft\gradle-4.9-all\gradle-4.9" />
+        <entry key="$PROJECT_DIR$/.idea" value="D:\soft\gradle-4.9-bin\gradle-4.9" />
+        <entry key="$PROJECT_DIR$/addressbook-web-tests" value="D:\soft\gradle-4.9-bin\gradle-4.9" />
+        <entry key="$PROJECT_DIR$/sandbox" value="D:\soft\gradle-4.9-bin\gradle-4.9" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
+        <entry key="$PROJECT_DIR$/.idea" value="4.9" />
+        <entry key="$PROJECT_DIR$/addressbook-web-tests" value="4.9" />
         <entry key="$PROJECT_DIR$/sandbox" value="4.9" />
       </map>
     </option>
     <option name="availableProjects">
       <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value=".idea" />
+              <option name="path" value="$PROJECT_DIR$/.idea" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value=".idea" />
+                <option name="path" value="$PROJECT_DIR$/.idea" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="addressbook-web-tests" />
+              <option name="path" value="$PROJECT_DIR$/addressbook-web-tests" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="addressbook-web-tests" />
+                <option name="path" value="$PROJECT_DIR$/addressbook-web-tests" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
         <entry>
           <key>
             <ExternalProjectPojo>
@@ -130,6 +169,213 @@
     </option>
     <option name="availableTasks">
       <map>
+        <entry key="$PROJECT_DIR$/.idea">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.idea" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project '.idea'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.idea" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project '.idea'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.idea" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project '.idea'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.idea" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project '.idea'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.idea" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project '.idea'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.idea" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.idea" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project '.idea'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.idea" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.idea" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project '.idea'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.idea" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project '.idea'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.idea" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project '.idea'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.idea" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/addressbook-web-tests">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'addressbook-web-tests'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'addressbook-web-tests'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'addressbook-web-tests'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'addressbook-web-tests'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'addressbook-web-tests'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'addressbook-web-tests'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'addressbook-web-tests'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'addressbook-web-tests'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'addressbook-web-tests'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/sandbox">
           <value>
             <list>
@@ -305,13 +551,219 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/sandbox" value="3066758615743" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/.idea" value="1534691606939" />
+        <entry key="$PROJECT_DIR$/.idea/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/addressbook-web-tests" value="3069380189487" />
+        <entry key="$PROJECT_DIR$/addressbook-web-tests/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/addressbook-web-tests/build.gradle" value="2020907453" />
+        <entry key="$PROJECT_DIR$/sandbox" value="3069380190285" />
         <entry key="$PROJECT_DIR$/sandbox/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/sandbox/build.gradle" value="2830924412" />
       </map>
     </option>
     <option name="projectBuildClasspath">
       <map>
+        <entry key="$PROJECT_DIR$/.idea">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/.idea">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/.idea" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value=".idea" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/ant-1.9.11.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/ant-launcher-1.9.11.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-base-services-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-base-services-groovy-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-build-cache-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-build-option-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-cli-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-core-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-core-api-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-docs-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-installation-beacon-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-jvm-services-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-kotlin-dsl-0.18.4.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-kotlin-dsl-provider-plugins-0.18.4.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-kotlin-dsl-tooling-builders-0.18.4.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-kotlin-dsl-tooling-models-0.18.4.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-launcher-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-logging-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-messaging-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-model-core-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-model-groovy-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-native-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-persistent-cache-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-process-services-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-resources-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-runtime-api-info-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-tooling-api-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-wrapper-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/groovy-all-2.4.12.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-announce-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-antlr-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-build-cache-http-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-build-comparison-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-build-init-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-code-quality-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-composite-builds-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-dependency-management-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-diagnostics-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ear-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ide-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ide-native-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ide-play-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ivy-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-jacoco-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-javascript-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-groovy-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-java-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-jvm-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-native-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-scala-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-maven-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-osgi-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-platform-base-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-platform-jvm-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-platform-native-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-platform-play-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-plugin-development-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-plugin-use-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-plugins-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-publish-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-reporting-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-resources-gcs-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-resources-http-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-resources-s3-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-resources-sftp-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-scala-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-signing-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-test-kit-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-testing-base-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-testing-junit-platform-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-testing-jvm-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-testing-native-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-tooling-api-builders-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-version-control-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-workers-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/.idea/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/.idea/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/addressbook-web-tests">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/addressbook-web-tests">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/addressbook-web-tests" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="addressbook-web-tests" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/ant-1.9.11.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/ant-launcher-1.9.11.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-base-services-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-base-services-groovy-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-build-cache-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-build-option-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-cli-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-core-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-core-api-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-docs-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-installation-beacon-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-jvm-services-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-kotlin-dsl-0.18.4.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-kotlin-dsl-provider-plugins-0.18.4.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-kotlin-dsl-tooling-builders-0.18.4.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-kotlin-dsl-tooling-models-0.18.4.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-launcher-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-logging-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-messaging-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-model-core-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-model-groovy-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-native-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-persistent-cache-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-process-services-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-resources-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-runtime-api-info-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-tooling-api-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/gradle-wrapper-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/groovy-all-2.4.12.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-announce-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-antlr-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-build-cache-http-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-build-comparison-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-build-init-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-code-quality-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-composite-builds-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-dependency-management-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-diagnostics-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ear-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ide-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ide-native-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ide-play-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-ivy-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-jacoco-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-javascript-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-groovy-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-java-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-jvm-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-native-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-language-scala-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-maven-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-osgi-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-platform-base-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-platform-jvm-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-platform-native-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-platform-play-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-plugin-development-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-plugin-use-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-plugins-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-publish-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-reporting-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-resources-gcs-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-resources-http-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-resources-s3-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-resources-sftp-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-scala-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-signing-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-test-kit-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-testing-base-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-testing-junit-platform-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-testing-jvm-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-testing-native-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-tooling-api-builders-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-version-control-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-workers-4.9.jar" />
+                  <option value="D:/soft/gradle-4.9-bin/gradle-4.9/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/addressbook-web-tests/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/addressbook-web-tests/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/sandbox">
           <value>
             <ExternalProjectBuildClasspathPojo>
@@ -416,20 +868,10 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/sandbox" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/.idea" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/addressbook-web-tests" value="IMPORT" />
+        <entry key="$PROJECT_DIR$/sandbox" value="IMPORT" />
       </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/sandbox/src/main/java/New.java" />
-        <option value="$PROJECT_DIR$/sandbox/build.gradle" />
-        <option value="$PROJECT_DIR$/sandbox/src/test/java/SquareTests.java" />
-        <option value="$PROJECT_DIR$/sandbox/src/test/java/PointTests.java" />
-        <option value="$PROJECT_DIR$/sandbox/src/main/java/Point.java" />
-        <option value="$PROJECT_DIR$/sandbox/src/main/java/BasicFunctions.java" />
-      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -450,67 +892,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Java_testers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_testers" type="b2602c69:ProjectViewProjectNode" />
               <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sandbox/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -524,14 +934,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BasicFunctions">
-    <configuration name="BasicFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicFunctions" />
-      <module name="sandbox_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="TestNG.ContactCreationTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <module name="Java_testers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -549,13 +973,113 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PointTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sandbox_test" />
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Java_testers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="Java_testers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="Java_testers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Java_testers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="Java_testers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+    </configuration>
+    <configuration name="ContactCreationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addresbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PointTests" />
+      <option name="PACKAGE_NAME" value="addresbook" />
+      <option name="MAIN_CLASS_NAME" value="addresbook.ContactCreationTests" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="GroupCreationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addresbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="addresbook" />
+      <option name="MAIN_CLASS_NAME" value="addresbook.GroupCreationTests" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -593,6 +1117,35 @@
       <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Java_testers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Java_testers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -653,13 +1206,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Application.BasicFunctions" />
-      <item itemvalue="TestNG.PointTests" />
+      <item itemvalue="TestNG.ContactCreationTests" />
+      <item itemvalue="TestNG.GroupCreationTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BasicFunctions" />
-        <item itemvalue="TestNG.PointTests" />
+        <item itemvalue="TestNG.ContactCreationTests" />
+        <item itemvalue="TestNG.GroupCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -668,83 +1221,60 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9d18cb68-931c-414e-8c75-de76104d2beb" name="Default" comment="" />
-      <created>1533375062609</created>
+      <changelist id="236d44c7-be7e-43b4-a215-9e1c1b6c8583" name="Default" comment="" />
+      <created>1534690188821</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533375062609</updated>
-      <workItem from="1533375067099" duration="7643000" />
-      <workItem from="1533772256992" duration="2710000" />
+      <updated>1534690188821</updated>
+      <workItem from="1534690190340" duration="1128000" />
+      <workItem from="1534691493882" duration="140000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PointTests - 2018.08.09 at 03h 27m 43s.xml">
-      <configuration name="PointTests" configurationId="TestNG" />
+    <history-entry file="ContactCreationTests - 2018.08.19 at 17h 57m 06s.xml">
+      <configuration name="ContactCreationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PointTests - 2018.08.09 at 03h 27m 58s.xml">
-      <configuration name="PointTests" configurationId="TestNG" />
+    <history-entry file="GroupCreationTests - 2018.08.19 at 17h 58m 18s.xml">
+      <configuration name="GroupCreationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PointTests - 2018.08.09 at 03h 28m 34s.xml">
-      <configuration name="PointTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PointTests - 2018.08.09 at 03h 32m 15s.xml">
-      <configuration name="PointTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PointTests - 2018.08.09 at 03h 32m 43s.xml">
-      <configuration name="PointTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PointTests - 2018.08.09 at 03h 33m 09s.xml">
-      <configuration name="PointTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PointTests - 2018.08.09 at 03h 33m 27s.xml">
-      <configuration name="PointTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PointTests - 2018.08.09 at 03h 33m 55s.xml">
-      <configuration name="PointTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PointTests - 2018.08.09 at 03h 35m 41s.xml">
-      <configuration name="PointTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PointTests - 2018.08.09 at 03h 36m 01s.xml">
-      <configuration name="PointTests" configurationId="TestNG" />
+    <history-entry file="ContactCreationTests - 2018.08.19 at 17h 58m 55s.xml">
+      <configuration name="ContactCreationTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10353000" />
+    <option name="totallyTimeSpent" value="1268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994709" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32936507" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37037036" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5021008" side_tool="true" visible="true" weight="0.13108882" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936507" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21275072" />
-      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.49789914" visible="true" weight="0.13108882" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.32936507" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -757,76 +1287,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="3" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/BasicFunctions.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/ContactCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="442">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/build.gradle">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/ContactCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/PointTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/PointTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/BasicFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="306">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -883,7 +1363,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sandbox</last-edited>
+          <last-edited>.idea</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -894,8 +1374,21 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
