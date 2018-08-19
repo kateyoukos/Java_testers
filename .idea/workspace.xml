@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="236d44c7-be7e-43b4-a215-9e1c1b6c8583" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/model/ContactData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/model/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/model/GroupData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/diagramAddressbook.uml" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/diagramAddressbook.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/tests/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/tests/ContactCreationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/tests/GroupCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/tests/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -50,63 +48,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="diagramAddressbook.uml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/diagramAddressbook.uml">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement />
-              <nodes>
-                <node x="86.125" y="0.0">addresbook.appmanager.ApplicationManager</node>
-                <node x="0.0" y="202.0">addresbook.tests.GroupCreationTests</node>
-                <node x="173.0" y="202.0">addresbook.tests.ContactCreationTests</node>
-                <node x="64.125" y="101.0">addresbook.tests.TestBase</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="addresbook.tests.TestBase" target="addresbook.appmanager.ApplicationManager">
-                  <point x="50.0" y="-25.5" />
-                  <point x="214.125" y="76.0" />
-                  <point x="203.125" y="76.0" />
-                  <point x="39.0" y="25.5" />
-                </edge>
-                <edge source="addresbook.tests.GroupCreationTests" target="addresbook.tests.TestBase">
-                  <point x="38.25" y="-14.5" />
-                  <point x="114.75" y="177.0" />
-                  <point x="139.125" y="177.0" />
-                  <point x="-25.0" y="25.5" />
-                </edge>
-                <edge source="addresbook.tests.ContactCreationTests" target="addresbook.tests.TestBase">
-                  <point x="40.5" y="-14.5" />
-                  <point x="294.5" y="177.0" />
-                  <point x="239.125" y="177.0" />
-                  <point x="75.0" y="25.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="220.0" />
-              <SelectedNodes>
-                <node>addresbook.tests.TestBase</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+      <file leaf-file-name="ContactCreationTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/tests/ContactCreationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="-456">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2437#2438#0" expanded="true" />
-                <element signature="e#2462#2463#0" expanded="true" />
-                <element signature="e#2496#2497#0" expanded="true" />
-                <element signature="e#2555#2556#0" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
+                <element signature="e#3911#3912#0" expanded="true" />
+                <element signature="e#3945#3946#0" expanded="true" />
+                <element signature="e#4192#4193#0" expanded="true" />
+                <element signature="e#4231#4232#0" expanded="true" />
+                <element signature="e#1519#1520#0" expanded="true" />
+                <element signature="e#1554#1555#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/ContactHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#1809#1810#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -905,7 +886,12 @@
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/ContactCreationTests.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/TestBase.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/GroupHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/NavigationHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/ContacHelper.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/tests/ContactCreationTests.java" />
       </list>
     </option>
   </component>
@@ -915,9 +901,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2053" />
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1942" />
+    <option name="y" value="3" />
     <option name="width" value="1228" />
     <option name="height" value="817" />
   </component>
@@ -1006,6 +992,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="addresbook.appmanager" />
       <recent name="addresbook" />
     </key>
   </component>
@@ -1314,7 +1301,7 @@
       <option name="presentableId" value="Default" />
       <updated>1534690188821</updated>
       <workItem from="1534690190340" duration="1128000" />
-      <workItem from="1534691493882" duration="2459000" />
+      <workItem from="1534691493882" duration="4827000" />
     </task>
     <servers />
   </component>
@@ -1336,10 +1323,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3587000" />
+    <option name="totallyTimeSpent" value="5955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
+    <frame x="1942" y="3" width="1228" height="817" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1361,8 +1349,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936507" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32936507" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3030822" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.37899545" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1396,24 +1384,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/tests/GroupCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/model/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/tests/ContactCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1429,42 +1403,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/GroupHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/diagramAddressbook.uml">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement />
           <nodes>
-            <node x="86.125" y="0.0">addresbook.appmanager.ApplicationManager</node>
-            <node x="0.0" y="202.0">addresbook.tests.GroupCreationTests</node>
-            <node x="173.0" y="202.0">addresbook.tests.ContactCreationTests</node>
-            <node x="64.125" y="101.0">addresbook.tests.TestBase</node>
+            <node x="0.0" y="0.0">addresbook.appmanager.GroupHelper</node>
+            <node x="348.0" y="0.0">addresbook.appmanager.NavigationHelper</node>
+            <node x="123.0" y="111.0">addresbook.appmanager.ApplicationManager</node>
+            <node x="264.375" y="379.0">addresbook.tests.GroupCreationTests</node>
+            <node x="82.375" y="379.0">addresbook.tests.ContactCreationTests</node>
+            <node x="174.0" y="0.0">addresbook.appmanager.SessionHelper</node>
+            <node x="151.0" y="278.0">addresbook.tests.TestBase</node>
           </nodes>
           <notes />
           <edges>
+            <edge source="addresbook.appmanager.ApplicationManager" target="addresbook.appmanager.SessionHelper">
+              <point x="16.0" y="-58.5" />
+              <point x="267.0" y="91.0" />
+              <point x="289.5" y="91.0" />
+              <point x="38.5" y="25.5" />
+            </edge>
             <edge source="addresbook.tests.TestBase" target="addresbook.appmanager.ApplicationManager">
               <point x="50.0" y="-25.5" />
-              <point x="214.125" y="76.0" />
-              <point x="203.125" y="76.0" />
-              <point x="39.0" y="25.5" />
+              <point x="301.0" y="253.0" />
+              <point x="315.0" y="253.0" />
+              <point x="64.0" y="58.5" />
             </edge>
-            <edge source="addresbook.tests.GroupCreationTests" target="addresbook.tests.TestBase">
-              <point x="38.25" y="-14.5" />
-              <point x="114.75" y="177.0" />
-              <point x="139.125" y="177.0" />
-              <point x="-25.0" y="25.5" />
+            <edge source="addresbook.appmanager.ApplicationManager" target="addresbook.appmanager.GroupHelper">
+              <point x="-48.0" y="-58.5" />
+              <point x="203.0" y="71.0" />
+              <point x="128.33333333333337" y="71.0" />
+              <point x="51.33333333333337" y="25.5" />
             </edge>
             <edge source="addresbook.tests.ContactCreationTests" target="addresbook.tests.TestBase">
-              <point x="40.5" y="-14.5" />
-              <point x="294.5" y="177.0" />
-              <point x="239.125" y="177.0" />
-              <point x="75.0" y="25.5" />
+              <point x="-40.5" y="-14.5" />
+              <point x="122.875" y="354.0" />
+              <point x="176.0" y="354.0" />
+              <point x="-75.0" y="25.5" />
+            </edge>
+            <edge source="addresbook.appmanager.ApplicationManager" target="addresbook.appmanager.NavigationHelper">
+              <point x="48.0" y="-58.5" />
+              <point x="299.0" y="71.0" />
+              <point x="373.66666666666663" y="71.0" />
+              <point x="-51.333333333333336" y="25.5" />
+            </edge>
+            <edge source="addresbook.tests.GroupCreationTests" target="addresbook.tests.TestBase">
+              <point x="-38.25" y="-14.5" />
+              <point x="302.625" y="354.0" />
+              <point x="276.0" y="354.0" />
+              <point x="25.0" y="25.5" />
             </edge>
           </edges>
           <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="220.0" />
-          <SelectedNodes>
-            <node>addresbook.tests.TestBase</node>
-          </SelectedNodes>
+          <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
           </Categories>
@@ -1473,17 +1484,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/ApplicationManager.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/SessionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="71">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2437#2438#0" expanded="true" />
-            <element signature="e#2462#2463#0" expanded="true" />
-            <element signature="e#2496#2497#0" expanded="true" />
-            <element signature="e#2555#2556#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/tests/GroupCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#1809#1810#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#3911#3912#0" expanded="true" />
+            <element signature="e#3945#3946#0" expanded="true" />
+            <element signature="e#4192#4193#0" expanded="true" />
+            <element signature="e#4231#4232#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/addresbook/tests/ContactCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1504,7 +1578,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1516,7 +1590,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 2.7 (venv) interpreter library</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1565,7 +1639,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: com.beust:jcommander:1.72</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
