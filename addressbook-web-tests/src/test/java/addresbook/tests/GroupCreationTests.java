@@ -1,5 +1,6 @@
-package addresbook;
+package addresbook.tests;
 
+import addresbook.model.GroupData;
 import org.testng.annotations.Test;
 
 public class GroupCreationTests extends TestBase {

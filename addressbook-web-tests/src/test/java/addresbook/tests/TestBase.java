@@ -1,4 +1,4 @@
-package addresbook;
+package addresbook.tests;
 
 import addresbook.appmanager.ApplicationManager;
 import org.testng.annotations.AfterMethod;
