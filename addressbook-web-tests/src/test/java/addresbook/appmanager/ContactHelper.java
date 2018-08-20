@@ -6,8 +6,6 @@ import org.openqa.selenium.WebDriver;
 
 public class ContactHelper extends HelperBase {
 
-    private WebDriver wd;
-
     public ContactHelper(WebDriver wd) {
         super(wd);
     }
@@ -45,5 +43,16 @@ public class ContactHelper extends HelperBase {
 
     public void closeDialogWindow() {
         wd.switchTo().alert().accept();
+    }
+
+    public boolean isThereAContact() {
+        return isElementPresent(By.name("selected[]"));
+    }
+
+    public void createContact(ContactData contact){
+        goToNewContactPage();
+        fillContactForm(contact);
+        submitContactCreationForm();
+
     }
 }
