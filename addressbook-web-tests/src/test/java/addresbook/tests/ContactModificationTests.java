@@ -16,7 +16,7 @@ public class ContactModificationTests extends TestBase{
             app.getContactHelper().createContact(new ContactData("Fil", "Middle", "Matue", "Comp", "446", "567", "145111", "55777@test.com"));
         }
         List<ContactData> before = app.getContactHelper().getContactList();
-        app.getContactHelper().selectContact(before.size()-1);
+        app.getContactHelper().selectContact(0);
         app.getContactHelper().editContactButton();
         ContactData contact = new ContactData("PFQQo", "Mdle", "True", "Comp", "4546", "4567", "1111", "555@test.com");
         app.getContactHelper().fillContactForm(contact);
@@ -25,7 +25,7 @@ public class ContactModificationTests extends TestBase{
         List<ContactData> after = app.getContactHelper().getContactList();
         Assert.assertEquals(after.size(), before.size());
 
-        before.remove(before.size()-1);
+        before.remove(0);
         before.add(contact);
 
         Assert.assertEquals(new HashSet<Object>(before), new HashSet<Object>(after));
