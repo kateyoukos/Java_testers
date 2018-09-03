@@ -3,6 +3,7 @@ package addresbook.model;
 import java.util.Objects;
 
 public class ContactData {
+    private int id;
     private final String firstname;
     private final String middlename;
     private final String lastname;
@@ -12,7 +13,9 @@ public class ContactData {
     private final String workPhone;
     private final String email;
 
+
     public ContactData(String firstname, String middlename, String lastname, String company, String homePhone, String mobilePhone, String workPhone, String email) {
+        this.id = Integer.MAX_VALUE;
         this.firstname = firstname;
         this.middlename = middlename;
         this.lastname = lastname;
@@ -56,6 +59,11 @@ public class ContactData {
         return email;
     }
 
+
+    public int getId() {
+        return id;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -67,7 +75,6 @@ public class ContactData {
 
     @Override
     public int hashCode() {
-
-        return Objects.hash(firstname, lastname);
+        return 0;
     }
 }
