@@ -1,7 +1,11 @@
 package addresbook.tests;
 
 import addresbook.model.ContactData;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.HashSet;
+import java.util.List;
 
 public class ContactModificationTests extends TestBase{
 
@@ -9,14 +13,21 @@ public class ContactModificationTests extends TestBase{
     public void testContactModification(){
         app.getNavigationHelper().goToHomePage();
         if(!app.getContactHelper().isThereAContact()){
-            app.getContactHelper().createContact(new ContactData("First", "Middle",
-                    "Last", "Comp", "1541", "777",
-                    "457", "213213@test.com"));
+            app.getContactHelper().createContact(new ContactData("Fil", "Middle", "Matue", "Comp", "446", "567", "145111", "55777@test.com"));
         }
-        app.getContactHelper().selectContact();
+        List<ContactData> before = app.getContactHelper().getContactList();
+        app.getContactHelper().selectContact(before.size()-1);
         app.getContactHelper().editContactButton();
-        app.getContactHelper().fillContactForm(new ContactData("FFFF", "Middle", "Last", "Comp", "4546", "4567", "1111", "555@test.com"));
+        ContactData contact = new ContactData("PFQQo", "Mdle", "True", "Comp", "4546", "4567", "1111", "555@test.com");
+        app.getContactHelper().fillContactForm(contact);
         app.getContactHelper().updateContact();
         app.getNavigationHelper().goToHomePage();
+        List<ContactData> after = app.getContactHelper().getContactList();
+        Assert.assertEquals(after.size(), before.size());
+
+        before.remove(before.size()-1);
+        before.add(contact);
+
+        Assert.assertEquals(new HashSet<Object>(before), new HashSet<Object>(after));
     }
 }

@@ -3,6 +3,10 @@ package addresbook.appmanager;
 import addresbook.model.ContactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ContactHelper extends HelperBase {
 
@@ -25,8 +29,8 @@ public class ContactHelper extends HelperBase {
         click(By.xpath("//div[@id='content']/form/input[21]"));
     }
 
-    public void selectContact() {
-        click(By.name("selected[]"));
+    public void selectContact(int index) {
+        wd.findElements(By.name("selected[]")).get(index).click();
     }
 
     public void editContactButton() {
@@ -55,4 +59,18 @@ public class ContactHelper extends HelperBase {
         submitContactCreationForm();
 
     }
+
+    public List<ContactData> getContactList() {
+        List<ContactData> contacts = new ArrayList<>();
+        List<WebElement> elements = wd.findElements(By.cssSelector("tr[class]"));
+        for(WebElement element: elements) {
+            String lastn = element.findElement(By.xpath("td[2]")).getText();
+            String firstn = element.findElement(By.xpath("td[3]")).getText();
+            ContactData contact = new ContactData(firstn, null, lastn, null, null, null,
+                    null, null);
+            contacts.add(contact);
+        }
+        return contacts;
+    }
+
 }
