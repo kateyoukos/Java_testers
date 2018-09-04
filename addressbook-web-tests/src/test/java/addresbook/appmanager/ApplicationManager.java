@@ -42,9 +42,9 @@ public class ApplicationManager {
         sessionHelper.login("admin", "secret");
     }
 
-    /*public void stop() {
+    public void stop() {
         wd.quit();
-    }*/
+    }
 
     public GroupHelper getGroupHelper() {
         return groupHelper;

@@ -70,4 +70,19 @@ public class GroupHelper extends HelperBase {
         }
         return groups;
     }
+
+    public void modifyGroup(List<GroupData> before, GroupData group) {
+        selectGroup(before.size() - 1);
+        initGroupModification();
+        fillGroupForm(group);
+        submitGroupModification();
+        returnToGroupPage();
+    }
+
+    public void deleteGroup(int index) {
+        selectGroup(index);
+        deleteSelectedGroups();
+
+    }
+
 }

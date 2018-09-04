@@ -41,7 +41,7 @@ public class ContactHelper extends HelperBase {
         click(By.name("update"));
     }
 
-    public void deleteContact() {
+    public void pressDeleteButton() {
         click(By.cssSelector("[value=\"Delete\"]"));
     }
 
@@ -73,4 +73,16 @@ public class ContactHelper extends HelperBase {
         return contacts;
     }
 
+    public void modifyContact(ContactData contact) {
+        selectContact(0);
+        editContactButton();
+        fillContactForm(contact);
+        updateContact();
+    }
+
+    public void deleteContact(int index) {
+        selectContact(index);
+        pressDeleteButton();
+        closeDialogWindow();
+    }
 }

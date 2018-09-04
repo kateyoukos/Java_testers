@@ -2,6 +2,7 @@ package addresbook.tests;
 
 import addresbook.appmanager.ApplicationManager;
 import org.openqa.selenium.remote.BrowserType;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 public class TestBase {
@@ -13,9 +14,9 @@ public class TestBase {
         app.init();
     }
 
-    /*@AfterSuite
+    @AfterSuite
     public void tearDown() {
         app.stop();
-    }*/
+    }
 
 }
