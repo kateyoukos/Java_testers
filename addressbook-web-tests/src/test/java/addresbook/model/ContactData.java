@@ -13,6 +13,18 @@ public class ContactData {
     private final String workPhone;
     private final String email;
 
+     public ContactData(int id, String firstname, String middlename, String lastname, String company, String homePhone, String mobilePhone, String workPhone, String email) {
+        this.id = id;
+        this.firstname = firstname;
+        this.middlename = middlename;
+        this.lastname = lastname;
+        this.company = company;
+        this.homePhone = homePhone;
+        this.mobilePhone = mobilePhone;
+
+        this.workPhone = workPhone;
+        this.email = email;
+    }
 
     public ContactData(String firstname, String middlename, String lastname, String company, String homePhone, String mobilePhone, String workPhone, String email) {
         this.id = Integer.MAX_VALUE;
@@ -24,7 +36,6 @@ public class ContactData {
         this.mobilePhone = mobilePhone;
         this.workPhone = workPhone;
         this.email = email;
-
     }
 
     public String getFirstname() {
@@ -75,7 +86,15 @@ public class ContactData {
 
     @Override
     public int hashCode() {
+         return Objects.hash(firstname, lastname);
+    }
 
-        return Objects.hash(firstname, lastname);
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }

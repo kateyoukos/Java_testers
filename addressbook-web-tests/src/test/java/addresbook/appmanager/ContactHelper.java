@@ -57,7 +57,6 @@ public class ContactHelper extends HelperBase {
         goToNewContactPage();
         fillContactForm(contact);
         submitContactCreationForm();
-
     }
 
     public List<ContactData> getContactList() {
@@ -66,7 +65,8 @@ public class ContactHelper extends HelperBase {
         for(WebElement element: elements) {
             String lastn = element.findElement(By.xpath("td[2]")).getText();
             String firstn = element.findElement(By.xpath("td[3]")).getText();
-            ContactData contact = new ContactData(firstn, null, lastn, null, null, null,
+            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+            ContactData contact = new ContactData(id, firstn, null, lastn, null, null, null,
                     null, null);
             contacts.add(contact);
         }

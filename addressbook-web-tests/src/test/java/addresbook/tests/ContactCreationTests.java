@@ -17,7 +17,7 @@ public class ContactCreationTests extends TestBase {
     public void testContactCreationTests() {
         app.getNavigationHelper().goToHomePage();
         List<ContactData> before = app.getContactHelper().getContactList();
-        ContactData contact = new ContactData("Leon", "Middle",
+        ContactData contact = new ContactData("Fred", "Middle",
                 "Lushin", "Comp", "1541", "777",
                 "457", "213213@test.com");
 
@@ -29,16 +29,6 @@ public class ContactCreationTests extends TestBase {
         Comparator<? super ContactData> byId = (c1, c2)-> Integer.compare(c1.getId(), c2.getId());
         before.sort(byId);
         after.sort(byId);
-        for(int i = 0; i<before.size(); i++){
-            System.out.println(before.get(i).getLastname());
-            System.out.println(before.get(i).getFirstname());
-        }
-
-        for(int i = 0; i<after.size(); i++){
-            System.out.println(after.get(i).getLastname());
-            System.out.println(after.get(i).getFirstname());
-        }
-
         Assert.assertEquals(before, after);
 
     }
