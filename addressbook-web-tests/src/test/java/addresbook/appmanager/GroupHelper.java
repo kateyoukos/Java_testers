@@ -71,8 +71,8 @@ public class GroupHelper extends HelperBase {
         return groups;
     }
 
-    public void modifyGroup(List<GroupData> before, GroupData group) {
-        selectGroup(before.size() - 1);
+    public void modifyGroup(int index, GroupData group) {
+        selectGroup(index);
         initGroupModification();
         fillGroupForm(group);
         submitGroupModification();
