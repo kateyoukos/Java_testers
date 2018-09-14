@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class GroupModificationTests extends TestBase{
 
@@ -21,23 +22,20 @@ public class GroupModificationTests extends TestBase{
 
     @Test
     public void testGroupModification(){
-        List<GroupData> before = app.getGroupHelper().getGroupList();
-        int index = before.size() - 1;
+        Set<GroupData> before = app.getGroupHelper().getGroupAll();
+        GroupData modifiedGroup = before.iterator().next();
+        //int index = before.size() - 1;
         GroupData group = new GroupData()
-                .setId(before.get(index).getId()).setName("GR1").setHeader("test Header").setFooter("test Footer");
-        app.getGroupHelper().modifyGroup(index, group);
-        List<GroupData> after = app.getGroupHelper().getGroupList();
+                .setId(modifiedGroup.getId()).setName("GR1").setHeader("test Header").setFooter("test Footer");
+        app.getGroupHelper().modifyGroup(group);
+        Set<GroupData> after = app.getGroupHelper().getGroupAll();
         Assert.assertEquals(after.size(), before.size());
-        before.remove(index);
+        before.remove(modifiedGroup);
         before.add(group);
 
-        Comparator<? super GroupData> byId = (g1, g2)->Integer.compare(g1.getId(), g2.getId());
+        /*Comparator<? super GroupData> byId = (g1, g2)->Integer.compare(g1.getId(), g2.getId());
         before.sort(byId);
-        after.sort(byId);
+        after.sort(byId);*/
         Assert.assertEquals(before, after);
-        //
-
-    }
-
-
+        }
 }
