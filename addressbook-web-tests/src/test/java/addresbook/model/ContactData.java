@@ -3,17 +3,17 @@ package addresbook.model;
 import java.util.Objects;
 
 public class ContactData {
-    private int id;
-    private final String firstname;
-    private final String middlename;
-    private final String lastname;
-    private final String company;
-    private final String homePhone;
-    private final String mobilePhone;
-    private final String workPhone;
-    private final String email;
+    private int id = Integer.MAX_VALUE;
+    private String firstname;
+    private String middlename;
+    private String lastname;
+    private String company;
+    private String homePhone;
+    private String mobilePhone;
+    private String workPhone;
+    private String email;
 
-     public ContactData(int id, String firstname, String middlename, String lastname, String company, String homePhone, String mobilePhone, String workPhone, String email) {
+    /*public ContactData(int id, String firstname, String middlename, String lastname, String company, String homePhone, String mobilePhone, String workPhone, String email) {
         this.id = id;
         this.firstname = firstname;
         this.middlename = middlename;
@@ -36,6 +36,51 @@ public class ContactData {
         this.mobilePhone = mobilePhone;
         this.workPhone = workPhone;
         this.email = email;
+    }*/
+
+    public ContactData setFirstname(String firstname) {
+        this.firstname = firstname;
+        return this;
+    }
+
+    public ContactData setMiddlename(String middlename) {
+        this.middlename = middlename;
+        return this;
+    }
+
+    public ContactData setLastname(String lastname) {
+        this.lastname = lastname;
+        return this;
+    }
+
+    public ContactData setCompany(String company) {
+        this.company = company;
+        return this;
+    }
+
+    public ContactData setHomePhone(String homePhone) {
+        this.homePhone = homePhone;
+        return this;
+    }
+
+    public ContactData setMobilePhone(String mobilePhone) {
+        this.mobilePhone = mobilePhone;
+        return this;
+    }
+
+    public ContactData setWorkPhone(String workPhone) {
+        this.workPhone = workPhone;
+        return this;
+    }
+
+    public ContactData setEmail(String email) {
+        this.email = email;
+        return this;
+    }
+
+    public ContactData setId(int id) {
+        this.id = id;
+        return this;
     }
 
     public String getFirstname() {
@@ -87,10 +132,6 @@ public class ContactData {
     @Override
     public int hashCode() {
          return Objects.hash(firstname, lastname);
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     @Override
