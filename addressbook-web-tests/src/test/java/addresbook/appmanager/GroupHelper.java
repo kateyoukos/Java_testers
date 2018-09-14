@@ -6,7 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class GroupHelper extends HelperBase {
 
@@ -59,18 +61,6 @@ public class GroupHelper extends HelperBase {
         return isElementPresent(By.name("selected[]"));
     }
 
-    public List<GroupData> getGroupList() {
-        List<GroupData> groups = new ArrayList<GroupData>();
-        List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
-        for(WebElement element: elements){
-            String name = element.getText();
-            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-            GroupData group = new GroupData().setId(id).setName(name);
-            groups.add(group);
-        }
-        return groups;
-    }
-
     public void modifyGroup(int index, GroupData group) {
         selectGroup(index);
         initGroupModification();
@@ -83,5 +73,31 @@ public class GroupHelper extends HelperBase {
         selectGroup(index);
         deleteSelectedGroups();
     }
+
+    public List<GroupData> getGroupList() {
+        List<GroupData> groups = new ArrayList<GroupData>();
+        List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
+        for(WebElement element: elements){
+            String name = element.getText();
+            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+            GroupData group = new GroupData().setId(id).setName(name);
+            groups.add(group);
+        }
+        return groups;
+    }
+
+    public Set<GroupData> getGroupAll() {
+        Set<GroupData> groups = new HashSet<GroupData>();
+        List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
+        for(WebElement element: elements){
+            String name = element.getText();
+            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+            GroupData group = new GroupData().setId(id).setName(name);
+            groups.add(group);
+        }
+        return groups;
+    }
+
+
 
 }
