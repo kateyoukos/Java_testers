@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ContactDeleteTests extends TestBase {
 
@@ -23,14 +24,15 @@ public class ContactDeleteTests extends TestBase {
 
     @Test
     public void testDeleteContact(){
-        List<ContactData> before = app.getContactHelper().getContactList();
+        Set<ContactData> before = app.getContactHelper().getContactAll();
+        ContactData deletedContact = before.iterator().next();;
         int index = before.size() - 1;
-        app.getContactHelper().deleteContact(index);
+        app.getContactHelper().deleteContact(deletedContact);
         app.getNavigationHelper().goToHomePage();
-        List<ContactData> after = app.getContactHelper().getContactList();
+        Set<ContactData> after = app.getContactHelper().getContactAll();
 
         Assert.assertEquals(after.size(), index);
-        before.remove(index);
+        before.remove(deletedContact);
         Assert.assertEquals(before, after);
 
     }
