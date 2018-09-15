@@ -92,7 +92,7 @@ public class ContactHelper extends HelperBase {
     }
 
     public void modifyContact(ContactData contact) {
-        selectContact(0);
+        selectContactById(contact.getId());
         editContactButton();
         fillContactForm(contact);
         updateContact();

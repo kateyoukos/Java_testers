@@ -26,12 +26,12 @@ public class ContactDeleteTests extends TestBase {
     public void testDeleteContact(){
         Set<ContactData> before = app.getContactHelper().getContactAll();
         ContactData deletedContact = before.iterator().next();;
-        int index = before.size() - 1;
+        //int index = before.size() - 1;
         app.getContactHelper().deleteContact(deletedContact);
         app.getNavigationHelper().goToHomePage();
         Set<ContactData> after = app.getContactHelper().getContactAll();
 
-        Assert.assertEquals(after.size(), index);
+        Assert.assertEquals(after.size(), before.size()-1);
         before.remove(deletedContact);
         Assert.assertEquals(before, after);
 
