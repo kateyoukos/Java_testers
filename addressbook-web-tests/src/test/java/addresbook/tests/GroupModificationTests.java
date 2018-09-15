@@ -1,6 +1,8 @@
 package addresbook.tests;
 
 import addresbook.model.GroupData;
+import addresbook.model.Groups;
+import org.hamcrest.CoreMatchers;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,6 +11,9 @@ import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GroupModificationTests extends TestBase{
 
@@ -22,20 +27,23 @@ public class GroupModificationTests extends TestBase{
 
     @Test
     public void testGroupModification(){
-        Set<GroupData> before = app.getGroupHelper().getGroupAll();
+        //Set<GroupData> before = app.getGroupHelper().getGroupAll();
+        Groups before = app.getGroupHelper().getGroupAll();
         GroupData modifiedGroup = before.iterator().next();
         //int index = before.size() - 1;
         GroupData group = new GroupData()
                 .setId(modifiedGroup.getId()).setName("GR1").setHeader("test Header").setFooter("test Footer");
         app.getGroupHelper().modifyGroup(group);
-        Set<GroupData> after = app.getGroupHelper().getGroupAll();
+        Groups after = app.getGroupHelper().getGroupAll();
         Assert.assertEquals(after.size(), before.size());
-        before.remove(modifiedGroup);
+        /*before.remove(modifiedGroup);
         before.add(group);
+        Assert.assertEquals(before, after);*/
 
         /*Comparator<? super GroupData> byId = (g1, g2)->Integer.compare(g1.getId(), g2.getId());
         before.sort(byId);
         after.sort(byId);*/
-        Assert.assertEquals(before, after);
+
+        assertThat(after, equalTo(before.without(modifiedGroup).withAdded(group)));
         }
 }
