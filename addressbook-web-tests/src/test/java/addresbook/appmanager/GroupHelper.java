@@ -1,6 +1,7 @@
 package addresbook.appmanager;
 
 import addresbook.model.GroupData;
+import addresbook.model.Groups;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -97,7 +98,7 @@ public class GroupHelper extends HelperBase {
         return groups;
     }
 
-    public Set<GroupData> getGroupAll() {
+    /*public Set<GroupData> getGroupAll() {
         Set<GroupData> groups = new HashSet<GroupData>();
         List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
         for(WebElement element: elements){
@@ -107,8 +108,18 @@ public class GroupHelper extends HelperBase {
             groups.add(group);
         }
         return groups;
+    }*/
+
+    public Groups getGroupAll() {
+        Groups groups = new Groups();
+        List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
+        for(WebElement element: elements){
+            String name = element.getText();
+            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+            GroupData group = new GroupData().setId(id).setName(name);
+            groups.add(group);
+        }
+        return groups;
     }
-
-
 
 }
