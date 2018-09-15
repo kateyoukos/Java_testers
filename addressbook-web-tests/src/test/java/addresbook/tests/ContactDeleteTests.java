@@ -1,7 +1,10 @@
 package addresbook.tests;
 
 import addresbook.model.ContactData;
+import addresbook.model.Contacts;
 import addresbook.model.GroupData;
+import org.hamcrest.CoreMatchers;
+import org.hamcrest.MatcherAssert;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,6 +12,9 @@ import org.testng.annotations.Test;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ContactDeleteTests extends TestBase {
 
@@ -24,16 +30,18 @@ public class ContactDeleteTests extends TestBase {
 
     @Test
     public void testDeleteContact(){
-        Set<ContactData> before = app.getContactHelper().getContactAll();
+        //Set<ContactData> before = app.getContactHelper().getContactAll();
+        Contacts before = app.getContactHelper().getContactAll();
         ContactData deletedContact = before.iterator().next();;
         //int index = before.size() - 1;
         app.getContactHelper().deleteContact(deletedContact);
         app.getNavigationHelper().goToHomePage();
-        Set<ContactData> after = app.getContactHelper().getContactAll();
+        Contacts after = app.getContactHelper().getContactAll();
 
         Assert.assertEquals(after.size(), before.size()-1);
-        before.remove(deletedContact);
-        Assert.assertEquals(before, after);
+        //before.remove(deletedContact);
+        //Assert.assertEquals(before, after);
+        assertThat(after, equalTo(before.without(deletedContact)));
 
     }
 
