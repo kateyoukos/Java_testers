@@ -12,6 +12,16 @@ public class ContactData {
     private String mobilePhone;
     private String workPhone;
     private String email;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public ContactData setAddress(String address) {
+        this.address = address;
+        return this;
+    }
 
     public String getAllPhones() {
         return allPhones;

@@ -18,9 +18,12 @@ public class ContactPhoneTests extends TestBase {
         ContactData contact = app.getContactHelper().getContactAll().iterator().next();
         ContactData contactInfoFromEditForm = app.getContactHelper().infoFromEditForm(contact);
 
-        /*assertThat(contact.getHomePhone(), equalTo(cleanedPhone(contactInfoFromEditForm.getHomePhone())));
-        assertThat(contact.getMobilePhone(), equalTo(cleanedPhone(contactInfoFromEditForm.getMobilePhone())));
-        assertThat(contact.getWorkPhone(), equalTo(cleanedPhone(contactInfoFromEditForm.getWorkPhone())));*/
+        /*assertThat(contact.getHomePhone(), equalTo(cleaned(contactInfoFromEditForm.getHomePhone())));
+        assertThat(contact.getMobilePhone(), equalTo(cleaned(contactInfoFromEditForm.getMobilePhone())));
+        assertThat(contact.getWorkPhone(), equalTo(cleaned(contactInfoFromEditForm.getWorkPhone())));*/
+
+        assertThat(contact.getEmail(), equalTo(contactInfoFromEditForm.getEmail()));
+        assertThat(contact.getAddress(), equalTo(contactInfoFromEditForm.getAddress()));
 
         //метод обратных проверок
         assertThat(contact.getAllPhones(), equalTo(mergePhones(contactInfoFromEditForm)));
@@ -41,11 +44,11 @@ public class ContactPhoneTests extends TestBase {
         return result;*/
         return Arrays.asList(contact.getHomePhone(), contact.getMobilePhone(), contact.getWorkPhone())
                 .stream().filter((s) -> ! s.equals(""))
-                .map(ContactPhoneTests::cleanedPhone)
+                .map(ContactPhoneTests::cleaned)
                 .collect(Collectors.joining("\n"));
     }
 
-    public static String cleanedPhone(String phone){
+    public static String cleaned(String phone){
         return phone.replaceAll("\\s", "").replaceAll("[-()]", "");
     }
 }
