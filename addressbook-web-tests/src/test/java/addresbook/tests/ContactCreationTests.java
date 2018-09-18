@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.*;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -19,9 +20,11 @@ public class ContactCreationTests extends TestBase {
         app.getNavigationHelper().goToHomePage();
         //Set<ContactData> before = app.getContactHelper().getContactAll();
         Contacts before = app.getContactHelper().getContactAll();
+        //относительный путь
+        File photo = new File("src/test/resources/flowers.jpg");
         ContactData contact = new ContactData().setFirstname("Fred")
                 .setMiddlename("Middle").setLastname("Lushin").setCompany("Comp").setMobilePhone("1541").setHomePhone("777").setWorkPhone("457")
-                .setEmail("213213@test.com");
+                .setEmail("213213@test.com").setPhoto(photo);
 
         app.getContactHelper().createContact(contact);
         app.getNavigationHelper().goToHomePage();
@@ -44,4 +47,11 @@ public class ContactCreationTests extends TestBase {
 
     }
 
+    /*@Test
+    public void testCurrentDir(){
+        File currentDir = new File(".");
+        File photo = new File("src/test/resources/flowers.jpg");
+        System.out.println(currentDir.getAbsolutePath());
+        System.out.println(photo.exists());
+    }*/
 }

@@ -1,5 +1,6 @@
 package addresbook.model;
 
+import java.io.File;
 import java.util.Objects;
 
 public class ContactData {
@@ -13,26 +14,8 @@ public class ContactData {
     private String workPhone;
     private String email;
     private String address;
-
-    public String getAddress() {
-        return address;
-    }
-
-    public ContactData setAddress(String address) {
-        this.address = address;
-        return this;
-    }
-
-    public String getAllPhones() {
-        return allPhones;
-    }
-
-    public ContactData setAllPhones(String allPhones) {
-        this.allPhones = allPhones;
-        return this;
-    }
-
     private String allPhones;
+    private File photo;
 
     /*public ContactData(int id, String firstname, String middlename, String lastname, String company, String homePhone, String mobilePhone, String workPhone, String email) {
         this.id = id;
@@ -151,9 +134,35 @@ public class ContactData {
         return email;
     }
 
-
     public int getId() {
         return id;
+    }
+
+    public File getPhoto() {
+        return photo;
+    }
+
+    public ContactData setPhoto(File photo) {
+        this.photo = photo;
+        return this;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public ContactData setAddress(String address) {
+        this.address = address;
+        return this;
+    }
+
+    public String getAllPhones() {
+        return allPhones;
+    }
+
+    public ContactData setAllPhones(String allPhones) {
+        this.allPhones = allPhones;
+        return this;
     }
 
     @Override
