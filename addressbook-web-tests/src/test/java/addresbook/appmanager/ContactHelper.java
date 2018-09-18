@@ -96,10 +96,13 @@ public class ContactHelper extends HelperBase {
         Contacts contacts = new Contacts();
         List<WebElement> elements = wd.findElements(By.cssSelector("tr[class]"));
         for(WebElement element: elements) {
-            String lastn = element.findElement(By.xpath("td[2]")).getText();
-            String firstn = element.findElement(By.xpath("td[3]")).getText();
+            String lastname = element.findElement(By.xpath("td[2]")).getText();
+            String firstname = element.findElement(By.xpath("td[3]")).getText();
+            String allPhones = element.findElement(By.xpath("td[6]")).getText();
+            String[] phones = allPhones.split("\n");
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-            ContactData contact = new ContactData().setId(id).setFirstname(firstn).setLastname(lastn);
+            ContactData contact = new ContactData().setId(id).setFirstname(firstname).setLastname(lastname)
+                    .setHomePhone(phones[0]).setMobilePhone(phones[1]).setWorkPhone(phones[2]);
             contacts.add(contact);
         }
         return contacts;
@@ -124,5 +127,24 @@ public class ContactHelper extends HelperBase {
         closeDialogWindow();
     }
 
+    public ContactData infoFromEditForm(ContactData contact) {
+        initContactModificationById(contact.getId());
+        String firstname = wd.findElement(By.name("firstname")).getAttribute("value");
+        String lastname = wd.findElement(By.name("lastname")).getAttribute("value");
+        String home = wd.findElement(By.name("home")).getAttribute("value");
+        String mobile = wd.findElement(By.name("mobile")).getAttribute("value");
+        String work = wd.findElement(By.name("work")).getAttribute("value");
+        wd.navigate().back();
+        return new ContactData().setId(contact.getId()).setFirstname(firstname).setLastname(lastname)
+                .setHomePhone(home).setMobilePhone(mobile).setWorkPhone(work);
+    }
+
+    private void initContactModificationById(int id) {
+        WebElement checkbox = wd.findElement(By.cssSelector(String.format("input[value='%s']", id)));
+        WebElement row = checkbox.findElement(By.xpath("./../..")); // .. means to parent attr
+
+        List<WebElement> cells = row.findElements(By.tagName("td"));
+        cells.get(7).findElement(By.tagName("a")).click();
+    }
 
 }
