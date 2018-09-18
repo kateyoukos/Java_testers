@@ -99,11 +99,16 @@ public class ContactHelper extends HelperBase {
             String lastname = element.findElement(By.xpath("td[2]")).getText();
             String firstname = element.findElement(By.xpath("td[3]")).getText();
             String allPhones = element.findElement(By.xpath("td[6]")).getText();
-            String[] phones = allPhones.split("\n");
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+
+            /*String[] phones = allPhones.split("\n");
             ContactData contact = new ContactData().setId(id).setFirstname(firstname).setLastname(lastname)
                     .setHomePhone(phones[0]).setMobilePhone(phones[1]).setWorkPhone(phones[2]);
-            contacts.add(contact);
+            contacts.add(contact);*/
+
+            //метод обратных проверок
+            contacts.add(new ContactData().setId(id).setFirstname(firstname).setLastname(lastname)
+                    .setAllPhones(allPhones));
         }
         return contacts;
     }
