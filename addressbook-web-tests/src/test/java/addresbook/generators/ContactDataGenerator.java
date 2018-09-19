@@ -5,6 +5,7 @@ import addresbook.model.GroupData;
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.ParameterException;
+import com.thoughtworks.xstream.XStream;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -43,7 +44,21 @@ public class ContactDataGenerator {
 
     private void run() throws IOException {
         List<ContactData> contacts = generateContacts(count);
-        save(contacts, new File(file));
+        if(format.equals("csv")){
+            save(contacts, new File(file));
+        } else if (format.equals("xml")){
+            saveAsXml(contacts, new File(file));
+        } else{
+            System.out.println("Format is unrecognized");
+        }
+    }
+
+    private void saveAsXml(List<ContactData> contacts, File file) throws IOException {
+        XStream xStream = new XStream();
+        String xml = xStream.toXML(contacts);
+        Writer writer = new FileWriter(file);
+        writer.write(xml);
+        writer.close();
     }
 
     private void save(List<ContactData> contacts, File file) throws IOException {
