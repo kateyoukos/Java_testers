@@ -22,7 +22,8 @@ public class ContactPhoneTests extends TestBase {
         assertThat(contact.getMobilePhone(), equalTo(cleaned(contactInfoFromEditForm.getMobilePhone())));
         assertThat(contact.getWorkPhone(), equalTo(cleaned(contactInfoFromEditForm.getWorkPhone())));*/
 
-        assertThat(contact.getEmail(), equalTo(contactInfoFromEditForm.getEmail()));
+        assertThat(contact.getAllEmails(), equalTo(mergeEmails(contactInfoFromEditForm)));
+
         assertThat(contact.getAddress(), equalTo(contactInfoFromEditForm.getAddress()));
 
         //метод обратных проверок
@@ -43,6 +44,13 @@ public class ContactPhoneTests extends TestBase {
         }
         return result;*/
         return Arrays.asList(contact.getHomePhone(), contact.getMobilePhone(), contact.getWorkPhone())
+                .stream().filter((s) -> ! s.equals(""))
+                .map(ContactPhoneTests::cleaned)
+                .collect(Collectors.joining("\n"));
+    }
+
+    private String mergeEmails(ContactData contact) {
+        return Arrays.asList(contact.getEmail(), contact.getEmail2(), contact.getEmail3())
                 .stream().filter((s) -> ! s.equals(""))
                 .map(ContactPhoneTests::cleaned)
                 .collect(Collectors.joining("\n"));
