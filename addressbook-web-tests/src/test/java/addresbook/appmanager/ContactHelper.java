@@ -26,7 +26,7 @@ public class ContactHelper extends HelperBase {
         type(By.name("mobile"), contactData.getMobilePhone());
         type(By.name("work"), contactData.getWorkPhone());
         type(By.name("email"), contactData.getEmail());
-        attach(By.name("photo"), contactData.getPhoto());
+        //attach(By.name("photo"), contactData.getPhoto());
     }
 
     public void submitContactCreationForm() {
@@ -102,13 +102,12 @@ public class ContactHelper extends HelperBase {
             String allPhones = element.findElement(By.xpath("td[6]")).getText();
             String allEmails = element.findElement(By.xpath("td[5]")).getText();
             String address = element.findElement(By.xpath("td[4]")).getText();
-
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
 
-            /*String[] phones = allPhones.split("\n");
-            ContactData contact = new ContactData().setId(id).setFirstname(firstname).setLastname(lastname)
-                    .setHomePhone(phones[0]).setMobilePhone(phones[1]).setWorkPhone(phones[2]);
-            contacts.add(contact);*/
+            //String[] phones = allPhones.split("\n");
+            //ContactData contact = new ContactData().setId(id).setFirstname(firstname).setLastname(lastname)
+            //        .setHomePhone(phones[0]).setMobilePhone(phones[1]).setWorkPhone(phones[2]);
+            //contacts.add(contact);
 
             //метод обратных проверок
             contacts.add(new ContactData().setId(id).setFirstname(firstname).setLastname(lastname)
@@ -118,7 +117,7 @@ public class ContactHelper extends HelperBase {
     }
 
     public void modifyContact(ContactData contact) {
-        selectContactById(contact.getId());
+        //selectContactById(contact.getId());
         editContactButton();
         fillContactForm(contact);
         updateContact();

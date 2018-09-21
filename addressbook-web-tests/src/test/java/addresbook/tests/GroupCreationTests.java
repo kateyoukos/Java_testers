@@ -5,24 +5,31 @@ import addresbook.model.Groups;
 import org.hamcrest.CoreMatchers;
 import org.hamcrest.MatcherAssert;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.util.Comparator;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GroupCreationTests extends TestBase {
 
-    @Test
-    public void testGroupCreationTests() {
+    @DataProvider
+    public Iterator<Object[]> validGroups(){
+        List<Object[]> list = new ArrayList<Object[]>();
+        list.add(new Object[] {new GroupData().setName("test1").setHeader("header1").setFooter("footer1")});
+        list.add(new Object[] {new GroupData().setName("test2").setHeader("header2").setFooter("footer2")});
+        list.add(new Object[] {new GroupData().setName("test3").setHeader("header3").setFooter("footer3")});
+        return list.iterator();
+    }
+
+    @Test(dataProvider = "validGroups")
+    public void testGroupCreationTests(GroupData group) {
         app.getNavigationHelper().goToGroupPage();
         //Set<GroupData> before = app.getGroupHelper().getGroupAll();
         Groups before = app.getGroupHelper().getGroupAll();
-        GroupData group = new GroupData().setName("N1").setHeader("HHHEADER").setFooter("FOOTER");
+        //GroupData group = new GroupData().setName(name).setHeader(header).setFooter(footer);
         app.getGroupHelper().createGroup(group);
 
         //Set<GroupData> after = app.getGroupHelper().getGroupAll();
