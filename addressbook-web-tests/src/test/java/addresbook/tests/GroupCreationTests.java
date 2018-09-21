@@ -2,12 +2,23 @@ package addresbook.tests;
 
 import addresbook.model.GroupData;
 import addresbook.model.Groups;
+import com.cedarsoft.serialization.ToString;
 import org.hamcrest.CoreMatchers;
 import org.hamcrest.MatcherAssert;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
+import javax.annotation.Nonnull;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.*;
 import java.util.*;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -16,11 +27,50 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class GroupCreationTests extends TestBase {
 
     @DataProvider
-    public Iterator<Object[]> validGroups(){
+    public Iterator<Object[]> validGroups() throws IOException, ParserConfigurationException, SAXException {
+
+        /*BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/groups.csv")));
+        String line = reader.readLine();
+        //csv
+        while(line != null){
+            String [] split = line.split(";");
+            list.add(new Object[] {new GroupData().setName(split[0]).setHeader(split[1]).setFooter(split[2])});
+            list.add(new Object[] {new GroupData().setName(split[0]).setHeader(split[1]).setFooter(split[2])});
+            line = reader.readLine();
+        }*/
+
+        DocumentBuilderFactory dbf=DocumentBuilderFactory.newInstance();
+        DocumentBuilder db=dbf.newDocumentBuilder();
+        Document doc = db.parse(new File("src/test/resources/groups.xml"));
+        doc.getDocumentElement().normalize();
+        NodeList nodeLst=doc.getElementsByTagName("addresbook.model.GroupData");
+
+
         List<Object[]> list = new ArrayList<Object[]>();
-        list.add(new Object[] {new GroupData().setName("test1").setHeader("header1").setFooter("footer1")});
+        for(int je=0;je<nodeLst.getLength();je++) {
+            Node fstNode = nodeLst.item(je);
+            if (fstNode.getNodeType() == Node.ELEMENT_NODE) {
+                Element element = (Element)fstNode;
+                NodeList nameNodeList = element.getElementsByTagName("name");
+                Element elementName = (Element)nameNodeList.item(0);
+                NodeList nameNode = elementName.getChildNodes();
+                NodeList headerNodeList = element.getElementsByTagName("header");
+                Element elementHeader = (Element)headerNodeList.item(0);
+                NodeList headerNode = elementHeader.getChildNodes();
+                NodeList footerNodeList = element.getElementsByTagName("footer");
+                Element elementFooter = (Element)footerNodeList.item(0);
+                NodeList footerNode = elementFooter.getChildNodes();
+
+                System.out.println(
+                        ((Node)nameNode.item(0)).getNodeValue()+", "+((Node)headerNode.item(0)).getNodeValue());
+                list.add(new Object[] {new GroupData().setName(((Node)nameNode.item(0)).getNodeValue()).setHeader(((Node)headerNode.item(0)).getNodeValue())
+                        .setFooter(((Node)footerNode.item(0)).getNodeValue())});
+            }
+        }
+
+        /*list.add(new Object[] {new GroupData().setName("test1").setHeader("header1").setFooter("footer1")});
         list.add(new Object[] {new GroupData().setName("test2").setHeader("header2").setFooter("footer2")});
-        list.add(new Object[] {new GroupData().setName("test3").setHeader("header3").setFooter("footer3")});
+        list.add(new Object[] {new GroupData().setName("test3").setHeader("header3").setFooter("footer3")});*/
         return list.iterator();
     }
 
