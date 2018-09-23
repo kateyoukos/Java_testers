@@ -1,0 +1,35 @@
+<list>
+  <addresbook.model.ContactData>
+    <id>2147483647</id>
+    <firstname>First 0</firstname>
+    <middlename>Middle 0</middlename>
+    <lastname>Last 0</lastname>
+    <company>Company 0</company>
+    <homePhone>Company 0</homePhone>
+    <mobilePhone>Company 0</mobilePhone>
+    <workPhone>Company 0</workPhone>
+    <email>Company 0</email>
+  </addresbook.model.ContactData>
+  <addresbook.model.ContactData>
+    <id>2147483647</id>
+    <firstname>First 1</firstname>
+    <middlename>Middle 1</middlename>
+    <lastname>Last 1</lastname>
+    <company>Company 1</company>
+    <homePhone>Company 1</homePhone>
+    <mobilePhone>Company 1</mobilePhone>
+    <workPhone>Company 1</workPhone>
+    <email>Company 1</email>
+  </addresbook.model.ContactData>
+  <addresbook.model.ContactData>
+    <id>2147483647</id>
+    <firstname>First 2</firstname>
+    <middlename>Middle 2</middlename>
+    <lastname>Last 2</lastname>
+    <company>Company 2</company>
+    <homePhone>Company 2</homePhone>
+    <mobilePhone>Company 2</mobilePhone>
+    <workPhone>Company 2</workPhone>
+    <email>Company 2</email>
+  </addresbook.model.ContactData>
+</list>
