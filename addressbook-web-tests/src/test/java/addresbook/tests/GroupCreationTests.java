@@ -29,9 +29,9 @@ public class GroupCreationTests extends TestBase {
     @DataProvider
     public Iterator<Object[]> validGroups() throws IOException, ParserConfigurationException, SAXException {
 
+        //read data from csv
         /*BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/groups.csv")));
         String line = reader.readLine();
-        //csv
         while(line != null){
             String [] split = line.split(";");
             list.add(new Object[] {new GroupData().setName(split[0]).setHeader(split[1]).setFooter(split[2])});
@@ -39,6 +39,7 @@ public class GroupCreationTests extends TestBase {
             line = reader.readLine();
         }*/
 
+        //read data from xml
         DocumentBuilderFactory dbf=DocumentBuilderFactory.newInstance();
         DocumentBuilder db=dbf.newDocumentBuilder();
         Document doc = db.parse(new File("src/test/resources/groups.xml"));

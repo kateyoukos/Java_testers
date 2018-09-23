@@ -70,7 +70,7 @@ public class GroupDataGenerator {
         List<GroupData> groups = new ArrayList<GroupData>();
         for(int i = 0; i < count; i++){
             groups.add(new GroupData().setName(String.format("test %s", i)).setHeader(String.format("header %s", i))
-            .setFooter(String.format("footer %s", i)));
+                    .setFooter(String.format("footer %s", i)));
         }
         return groups;
     }
