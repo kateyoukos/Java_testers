@@ -1,25 +1,74 @@
 package addresbook.model;
 
+import org.hibernate.annotations.Type;
+
+import javax.persistence.*;
 import java.io.File;
 import java.util.Objects;
 
+@Entity
+@Table(name = "addressbook")
 public class ContactData {
+    @Id
+    @Column(name = "id")
     private int id = Integer.MAX_VALUE;
-    private String firstname;
-    private String middlename;
-    private String lastname;
-    private String company;
-    private String homePhone;
-    private String mobilePhone;
-    private String workPhone;
-    private String allPhones;
-    private String email;
-    private String email2;
-    private String email3;
-    private String allEmails;
-    private String address;
-    private File photo;
 
+    @Column(name = "firstname")
+    private String firstname;
+
+    @Column(name = "middlename")
+    private String middlename;
+
+    @Column(name = "lastname")
+    private String lastname;
+
+    @Column(name = "company")
+    private String company;
+
+    @Column(name = "home")
+    @Type(type = "text")
+    private String homePhone;
+
+    @Column(name = "mobile")
+    @Type(type = "text")
+    private String mobilePhone;
+
+    @Column(name = "work")
+    @Type(type = "text")
+    private String workPhone;
+
+
+    @Column(name = "email")
+    @Type(type = "text")
+    private String email;
+
+
+    @Column(name = "email2")
+    @Type(type = "text")
+    private String email2;
+
+
+    @Column(name = "email3")
+    @Type(type = "text")
+    private String email3;
+
+    @Transient
+    private String allPhones;
+
+    @Transient
+    private String allEmails;
+
+    @Column(name = "address")
+    @Type(type = "text")
+    private String address;
+
+    @Column(name = "photo")
+    @Type(type = "text")
+    private String photo;
+
+
+    @Transient
+    private String group;
 
     /*public ContactData(int id, String firstname, String middlename, String lastname, String company, String homePhone, String mobilePhone, String workPhone, String email) {
         this.id = id;
@@ -128,11 +177,11 @@ public class ContactData {
     }
 
     public File getPhoto() {
-        return photo;
+        return new File(photo);
     }
 
     public ContactData setPhoto(File photo) {
-        this.photo = photo;
+        this.photo = photo.getPath();
         return this;
     }
 
@@ -185,10 +234,11 @@ public class ContactData {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ContactData that = (ContactData) o;
-        return id == that.id &&
-                Objects.equals(firstname, that.firstname);
+        ContactData contactData = (ContactData) o;
+        return id == contactData.id &&
+                Objects.equals(firstname, contactData.firstname);
     }
+
 
     @Override
     public int hashCode() {
@@ -197,6 +247,11 @@ public class ContactData {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "ContactData{" +
+                "id=" + id +
+                ", firstname='" + firstname + '\'' +
+                ", middlename='" + middlename + '\'' +
+                ", lastname='" + lastname + '\'' +
+                '}';
     }
 }

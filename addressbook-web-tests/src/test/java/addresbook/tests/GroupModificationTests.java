@@ -32,7 +32,7 @@ public class GroupModificationTests extends TestBase{
         GroupData modifiedGroup = before.iterator().next();
         //int index = before.size() - 1;
         GroupData group = new GroupData()
-                .setId(modifiedGroup.getId()).setName("GR1").setHeader("test Header").setFooter("test Footer");
+                .setId(modifiedGroup.getId()).setName("GR78").setHeader("test Header78").setFooter("test Footer78");
         app.getGroupHelper().modifyGroup(group);
         Groups after = app.getGroupHelper().getGroupAll();
         Assert.assertEquals(after.size(), before.size());
@@ -44,6 +44,8 @@ public class GroupModificationTests extends TestBase{
         before.sort(byId);
         after.sort(byId);*/
 
+        System.out.println("After: " + after);
+        System.out.println("Before: " + before.without(modifiedGroup).withAdded(group));
         assertThat(after, equalTo(before.without(modifiedGroup).withAdded(group)));
         }
 }

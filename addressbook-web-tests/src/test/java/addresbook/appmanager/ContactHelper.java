@@ -37,7 +37,12 @@ public class ContactHelper extends HelperBase {
         wd.findElements(By.name("selected[]")).get(index).click();
     }
 
-    private void selectContactById(int id) {
+    /*private void selectContactById(int id) {
+        wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
+    }*/
+
+    //new
+    public void selectContactById(int id) {
         wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
     }
 
@@ -117,8 +122,8 @@ public class ContactHelper extends HelperBase {
     }
 
     public void modifyContact(ContactData contact) {
-        //selectContactById(contact.getId());
-        editContactButton();
+        selectContactById(contact.getId());
+        initContactModificationById(contact.getId());
         fillContactForm(contact);
         updateContact();
     }
@@ -153,12 +158,15 @@ public class ContactHelper extends HelperBase {
 
     }
 
-    private void initContactModificationById(int id) {
+    /*private void initContactModificationById(int id) {
         WebElement checkbox = wd.findElement(By.cssSelector(String.format("input[value='%s']", id)));
         WebElement row = checkbox.findElement(By.xpath("./../..")); // .. means to parent attr
 
         List<WebElement> cells = row.findElements(By.tagName("td"));
         cells.get(7).findElement(By.tagName("a")).click();
-    }
+    }*/
 
+    public void initContactModificationById(int id) {
+        wd.findElement(By.cssSelector("a[href='edit.php?id=" +  id + "']")).click();
+        }
 }

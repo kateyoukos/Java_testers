@@ -32,12 +32,14 @@ public class ContactModificationTests extends TestBase{
         ContactData modifiedContact = before.iterator().next();
         //int index = before.size() - 1;
         ContactData contact = new ContactData()
-                .setId(modifiedContact.getId()).setFirstname("TT").setMiddlename("Middle").setLastname("CC").setCompany("Comp")
+                .setId(modifiedContact.getId()).setFirstname("QDSGASDGDSG").setMiddlename("TestMiddle").setLastname("CC").setCompany("Comp")
                 .setMobilePhone("4546").setWorkPhone("4567").setHomePhone("1111").setEmail("test@test.com");
         app.getContactHelper().modifyContact(contact);
         app.getNavigationHelper().goToHomePage();
         Contacts after = app.getContactHelper().getContactAll();
+
         Assert.assertEquals(after.size(), before.size());
+
 
         /*
         before.remove(modifiedContact);

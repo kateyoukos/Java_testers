@@ -23,6 +23,7 @@ public class ApplicationManager {
     private NavigationHelper navigationHelper;
     private GroupHelper groupHelper;
     private String browser;
+    private DbHelper dbHelper;
 
     public ApplicationManager(String browser) {
         this.browser = browser;
@@ -33,6 +34,7 @@ public class ApplicationManager {
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(String.format("src/test/resources/%s.properties", target)));
 
+        dbHelper = new DbHelper();
 
         //run tests in different browsers
         if(browser.equals(BrowserType.FIREFOX)){
@@ -43,7 +45,6 @@ public class ApplicationManager {
             wd = new InternetExplorerDriver();
         }
 
-
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.get(properties.getProperty("web.baseUrl"));
         groupHelper = new GroupHelper(wd);
@@ -51,6 +52,7 @@ public class ApplicationManager {
         contactHelper = new ContactHelper(wd);
         sessionHelper = new SessionHelper(wd);
         sessionHelper.login(properties.getProperty("web.adminLogin"), properties.getProperty("web.adminPassword"));
+
     }
 
     public void stop() {
@@ -67,5 +69,9 @@ public class ApplicationManager {
 
     public ContactHelper getContactHelper() {
         return contactHelper;
+    }
+
+    public DbHelper db(){
+        return  dbHelper;
     }
 }
