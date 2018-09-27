@@ -19,13 +19,18 @@ public class GroupModificationTests extends TestBase{
 
     @BeforeMethod
     public void ensurePreconditions(){
-        app.getNavigationHelper().goToGroupPage();
-        if(!app.getGroupHelper().isThereAGroup()){
+        if (app.db().groups().size() == 0){
+            app.getNavigationHelper().goToGroupPage();
             app.getGroupHelper().createGroup(new GroupData().setName("test group1"));
         }
+
+        /*app.getNavigationHelper().goToGroupPage();
+        if(!app.getGroupHelper().isThereAGroup()){
+            app.getGroupHelper().createGroup(new GroupData().setName("test group1"));
+        }*/
     }
 
-    @Test
+    @Test (enabled = false)
     public void testGroupModification(){
         //Set<GroupData> before = app.getGroupHelper().getGroupAll();
         Groups before = app.getGroupHelper().getGroupAll();
@@ -44,8 +49,21 @@ public class GroupModificationTests extends TestBase{
         before.sort(byId);
         after.sort(byId);*/
 
-        System.out.println("After: " + after);
-        System.out.println("Before: " + before.without(modifiedGroup).withAdded(group));
         assertThat(after, equalTo(before.without(modifiedGroup).withAdded(group)));
-        }
+    }
+
+    @Test (enabled = true)
+    public void testGroupModificationDB(){
+        Groups before = app.db().groups();
+        GroupData modifiedGroup = before.iterator().next();
+        GroupData group = new GroupData()
+                .setId(modifiedGroup.getId()).setName("GR1414").setHeader("test Header78").setFooter("test Footer78");
+        app.getNavigationHelper().goToGroupPage();
+        app.getGroupHelper().modifyGroup(group);
+        Groups after = app.db().groups();
+        Assert.assertEquals(after.size(), before.size());
+        assertThat(after, equalTo(before.without(modifiedGroup).withAdded(group)));
+    }
+
+
 }

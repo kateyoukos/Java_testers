@@ -20,15 +20,22 @@ public class ContactDeleteTests extends TestBase {
 
     @BeforeMethod
     public void ensurePreconditions(){
-        app.getNavigationHelper().goToHomePage();
+        if (app.db().contacts().size() == 0){
+            app.getNavigationHelper().goToHomePage();
+            app.getContactHelper().createContact(new ContactData()
+                    .setFirstname("FirstF").setMiddlename("Middle").setLastname("Last").setCompany("Comp").setMobilePhone("1541")
+                    .setWorkPhone("777").setHomePhone("457").setEmail("213213@test.com"));
+        }
+
+        /*app.getNavigationHelper().goToHomePage();
         if(!app.getContactHelper().isThereAContact()){
             app.getContactHelper().createContact(new ContactData()
                             .setFirstname("FirstF").setMiddlename("Middle").setLastname("Last").setCompany("Comp").setMobilePhone("1541")
                     .setWorkPhone("777").setHomePhone("457").setEmail("213213@test.com"));
-        }
+        }*/
     }
 
-    @Test
+    @Test(enabled = false)
     public void testDeleteContact(){
         //Set<ContactData> before = app.getContactHelper().getContactAll();
         Contacts before = app.getContactHelper().getContactAll();
@@ -40,6 +47,17 @@ public class ContactDeleteTests extends TestBase {
         Assert.assertEquals(after.size(), before.size()-1);
         //before.remove(deletedContact);
         //Assert.assertEquals(before, after);
+        assertThat(after, equalTo(before.without(deletedContact)));
+    }
+
+    @Test(enabled = true)
+    public void testDeleteContactDB(){
+        Contacts before = app.db().contacts();
+        ContactData deletedContact = before.iterator().next();;
+        app.getContactHelper().deleteContact(deletedContact);
+        app.getNavigationHelper().goToHomePage();
+        Contacts after = app.db().contacts();
+        Assert.assertEquals(after.size(), before.size()-1);
         assertThat(after, equalTo(before.without(deletedContact)));
     }
 }

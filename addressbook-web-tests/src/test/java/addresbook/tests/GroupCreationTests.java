@@ -26,6 +26,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GroupCreationTests extends TestBase {
 
+
     @DataProvider
     public Iterator<Object[]> validGroups() throws IOException, ParserConfigurationException, SAXException {
 
@@ -75,7 +76,7 @@ public class GroupCreationTests extends TestBase {
         return list.iterator();
     }
 
-    @Test(dataProvider = "validGroups")
+    @Test(dataProvider = "validGroups", enabled = false)
     public void testGroupCreationTests(GroupData group) {
         app.getNavigationHelper().goToGroupPage();
         //Set<GroupData> before = app.getGroupHelper().getGroupAll();
@@ -102,5 +103,18 @@ public class GroupCreationTests extends TestBase {
         //Hamcrest - checker
         assertThat(after, equalTo(
                 before.withAdded(group)));
+    }
+
+    @Test(dataProvider = "validGroups")
+    public void testGroupCreationTestsDB(GroupData group) {
+        app.getNavigationHelper().goToGroupPage();
+        Groups before = app.db().groups();
+        app.getGroupHelper().createGroup(group);
+        Groups after = app.db().groups();
+        //Hamcrest - checker
+        assertThat(after.size(), equalTo(before.size()+1));
+        group.setId(after.stream().mapToInt((g)->g.getId()).max().getAsInt()); //max id
+        //Hamcrest - checker
+        assertThat(after, equalTo(before.withAdded(group)));
     }
 }

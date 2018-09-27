@@ -93,7 +93,7 @@ public class ContactCreationTests extends TestBase {
         return list.iterator();
     }
 
-    @Test(dataProvider = "validContacts")
+    @Test(dataProvider = "validContacts", enabled = false)
     public void testContactCreationTests(ContactData contact ) {
         app.getNavigationHelper().goToHomePage();
         //Set<ContactData> before = app.getContactHelper().getContactAll();
@@ -124,6 +124,21 @@ public class ContactCreationTests extends TestBase {
         assertThat(after, equalTo(
                 before.withAdded(contact.setId(after.stream().mapToInt((g)->g.getId()).max().getAsInt()))));
 
+    }
+
+    @Test(dataProvider = "validContacts", enabled = true)
+    public void testContactCreationTestsDB(ContactData contact ) {
+        app.getNavigationHelper().goToHomePage();
+        Contacts before = app.db().contacts();
+        //относительный путь
+        File photo = new File("src/test/resources/flowers.jpg");
+        app.getContactHelper().createContact(contact);
+        app.getNavigationHelper().goToHomePage();
+        Contacts after = app.db().contacts();
+        assertThat(after.size(), equalTo(before.size() + 1));
+
+        assertThat(after, equalTo(
+                before.withAdded(contact.setId(after.stream().mapToInt((g)->g.getId()).max().getAsInt()))));
     }
 
     /*@Test
