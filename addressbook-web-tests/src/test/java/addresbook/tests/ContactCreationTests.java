@@ -2,9 +2,9 @@ package addresbook.tests;
 
 import addresbook.model.ContactData;
 import addresbook.model.Contacts;
-import addresbook.model.GroupData;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
@@ -24,7 +24,6 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ContactCreationTests extends TestBase {
-
 
     @DataProvider
     public Iterator<Object[]> validContacts() throws IOException, SAXException, ParserConfigurationException {
@@ -139,7 +138,11 @@ public class ContactCreationTests extends TestBase {
 
         assertThat(after, equalTo(
                 before.withAdded(contact.setId(after.stream().mapToInt((g)->g.getId()).max().getAsInt()))));
+
+        verifyContactListInUI();
     }
+
+
 
     /*@Test
     public void testCurrentDir(){

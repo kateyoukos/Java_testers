@@ -116,5 +116,7 @@ public class GroupCreationTests extends TestBase {
         group.setId(after.stream().mapToInt((g)->g.getId()).max().getAsInt()); //max id
         //Hamcrest - checker
         assertThat(after, equalTo(before.withAdded(group)));
+
+        verifyGroupListInUI();
     }
 }
