@@ -5,6 +5,7 @@ import addresbook.model.Contacts;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -56,6 +57,10 @@ public class ContactHelper extends HelperBase {
 
     public void pressDeleteButton() {
         click(By.cssSelector("[value=\"Delete\"]"));
+    }
+
+    public void pressAddtoGroupButton() {
+        click(By.name("add"));
     }
 
     public void closeDialogWindow() {
@@ -140,6 +145,18 @@ public class ContactHelper extends HelperBase {
         closeDialogWindow();
     }
 
+    public void addContactToGroup(int id, String groupName) {
+        selectContactById(id);
+        selectGroupFromList(groupName);
+        pressAddtoGroupButton();
+    }
+
+    private void selectGroupFromList(String groupName) {
+        wd.findElement(By.name("to_group")).click();
+        String xpathCorrect = "//*[@name='to_group']/option[text()='".concat(groupName).concat("']") ;
+        wd.findElement(By.xpath(xpathCorrect )).click();
+    }
+
     public ContactData infoFromEditForm(ContactData contact) {
         initContactModificationById(contact.getId());
         String firstname = wd.findElement(By.name("firstname")).getAttribute("value");
@@ -169,6 +186,7 @@ public class ContactHelper extends HelperBase {
     public void initContactModificationById(int id) {
         wd.findElement(By.cssSelector("a[href='edit.php?id=" +  id + "']")).click();
         }
+
 
 
 }

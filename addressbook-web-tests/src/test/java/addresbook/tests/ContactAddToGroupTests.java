@@ -2,11 +2,14 @@ package addresbook.tests;
 
 import addresbook.model.ContactData;
 import addresbook.model.Contacts;
+import addresbook.model.GroupData;
+import addresbook.model.Groups;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.MatcherAssert.assertThat;
+//import static org.hamcrest.MatcherAssert.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
 public class ContactAddToGroupTests extends TestBase{
 
@@ -20,24 +23,27 @@ public class ContactAddToGroupTests extends TestBase{
         }
     }
 
-    @Test(enabled = true)
-    public void testContactCreationWithAddToGroupTestsDB(ContactData contact ) {
-        app.getNavigationHelper().goToHomePage();
-        Contacts before = app.db().contacts();
-        // добавить контакт в группу
-        //извчлечь группы для контактов ui
-        //извчлечь группы для контактов bd
-        //сравнить их
-
-
+    @Test
+    public void testContactCreationWithAddToGroupTestsDB() {
         app.getNavigationHelper().goToHomePage();
 
-        Contacts after = app.db().contacts();
-        assertThat(after.size(), equalTo(before.size() + 1));
+        Contacts beforeContactList = app.db().contacts();
+        Groups beforeGroupList = app.db().groups();
 
-        assertThat(after, equalTo(
-                before.withAdded(contact.setId(after.stream().mapToInt((g)->g.getId()).max().getAsInt()))));
+        ContactData selectedContact = beforeContactList.iterator().next();
+        Groups groupSelectedForContact = selectedContact.getGroups();
+        GroupData selectGroup = beforeGroupList.iterator().next();
 
-        verifyContactListInUI();
+        app.getNavigationHelper().goToHomePage();
+        app.getContactHelper().addContactToGroup(selectedContact.getId(), selectGroup.getName());
+        System.out.println(groupSelectedForContact.withAdded(selectGroup));
+
+        //assertThat(afterGroupList, equalTo(groupSelectedForContact.withAdded(selectGroup)));
+        System.out.println(app.db().getContact(selectedContact.getId()).getGroups());
+        System.out.println(selectGroup);
+
+        assertThat(app.db().getContact(selectedContact.getId()).getGroups().contains(selectGroup));
+        //verifyContactListInUI();
     }
+
 }
