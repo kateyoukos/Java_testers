@@ -188,5 +188,18 @@ public class ContactHelper extends HelperBase {
         }
 
 
+    public void deleteContactFromGroup(int id, String groupName) {
+        selectGroup(groupName);
+        selectContactById(id);
+        removeContact();
+    }
 
+    private void selectGroup(String groupName) {
+        String xpathCorrect = "//*[@name='group']/option[text()='".concat(groupName).concat("']") ;
+        wd.findElement(By.xpath(xpathCorrect )).click();
+    }
+
+    private void removeContact() {
+        click(By.name("remove"));
+    }
 }
