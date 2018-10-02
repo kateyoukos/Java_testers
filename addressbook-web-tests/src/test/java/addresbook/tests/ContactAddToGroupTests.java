@@ -31,17 +31,10 @@ public class ContactAddToGroupTests extends TestBase {
     public void testContactCreationWithAddToGroupDB() {
         Contacts beforeContactList = app.db().contacts();
         Groups beforeGroupList = app.db().groups();
-
         ContactData selectedContact = beforeContactList.iterator().next();
-        Groups groupSelectedForContact = selectedContact.getGroups();
         GroupData selectedGroup = beforeGroupList.iterator().next();
-
         app.getNavigationHelper().goToHomePage();
         app.getContactHelper().addContactToGroup(selectedContact.getId(), selectedGroup.getName());
-        System.out.println(groupSelectedForContact.withAdded(selectedGroup));
-
-        System.out.println(app.db().getContact(selectedContact.getId()).getGroups());
-        System.out.println(selectedGroup);
 
         assertThat(app.db().getContact(selectedContact.getId()).getGroups().contains(selectedGroup), equalTo(true));
         //verifyContactListInUI();
