@@ -11,7 +11,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-import java.util.regex.MatchResult;
 
 public class ApplicationManager {
     private final Properties properties;
@@ -19,6 +18,9 @@ public class ApplicationManager {
     private String browser;
     private RegistrationHelper registrationHelper;
     private FtpHelper ftp;
+    private MailHelper mailHelper;
+    private ResetPasswordHelper resetPasswordHelper;
+    private DbHelper dbHelper;
 
     public ApplicationManager(String browser) {
         this.browser = browser;
@@ -51,6 +53,13 @@ public class ApplicationManager {
         return registrationHelper;
     }
 
+    public ResetPasswordHelper resetPassword() {
+        if (resetPasswordHelper == null){
+            resetPasswordHelper = new ResetPasswordHelper(this);
+        }
+        return resetPasswordHelper;
+    }
+
     public FtpHelper ftp(){
         if(ftp == null){
             ftp = new FtpHelper(this);
@@ -73,6 +82,17 @@ public class ApplicationManager {
             wd.get(properties.getProperty("web.baseUrl"));
         }
         return wd;
+    }
+
+    public MailHelper mail(){
+        if(mailHelper == null){
+            mailHelper = new MailHelper(this);
+        }
+        return mailHelper;
+    }
+
+    public DbHelper db() {
+        return dbHelper;
     }
 }
 

@@ -14,16 +14,17 @@ public class TestBase {
     //options to run in VMoptions: -ea -Dbrowser=firefox
     protected static final ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
 
+
     @BeforeSuite
     public void setUp() throws Exception {
         app.init();
-        app.ftp().upload(new File("src/test/resources/config_inc.php"), "config_inc.php", "config_inc.php.bak");
+        //app.ftp().upload(new File("src/test/resources/config_inc.php"), "config_inc.php", "config_inc.php.bak");
     }
 
-    @AfterSuite
+    /*@AfterSuite
     public void tearDown() throws IOException {
-        app.ftp().restore("\"config_inc.php.bak\"", "config_inc.php");
+        //app.ftp().restore("config_inc.php.bak", "config_inc.php");
         app.stop();
-    }
+    }*/
 
 }
