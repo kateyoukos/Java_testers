@@ -24,7 +24,7 @@ public class UserData {
     }
 
     @Column(name = "username")
-    @Type(type = "text")
+    @Type(type = "string")
     public String username;
 
     public String getUsername() {

@@ -1,5 +1,7 @@
 package appmanager;
 
+
+import ch.qos.logback.core.db.DBHelper;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -28,8 +30,10 @@ public class ApplicationManager {
     }
 
     public void init() throws IOException {
+        dbHelper = new DbHelper();
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(String.format("src/test/resources/%s.properties", target)));
+
     }
 
     public void stop() {
