@@ -13,7 +13,7 @@ public class DbConnectionTest {
         try {
             conn = DriverManager.getConnection("jdbc:mysql://localhost/bugtracker?user=root&password=");
             Statement st = conn.createStatement();
-            ResultSet resultSet = st.executeQuery("select id from mantis_user_table where username = 'user1'");
+            ResultSet resultSet = st.executeQuery("select id, username from mantis_user_table");
 
             Users users = new Users();
             while (resultSet.next()){
@@ -32,5 +32,6 @@ public class DbConnectionTest {
             System.out.println("SQLState: " + ex.getSQLState());
             System.out.println("VendorError: " + ex.getErrorCode());
         }
+
     }
 }

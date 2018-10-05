@@ -17,17 +17,29 @@ public class ResetPasswordHelper extends HelperBase {
     }
 
     public void resetPasswordPush(String username) {
-        wd.findElement(By.cssSelector("a[href='/mantisbt-1.2.19/manage_user_page.php']")).click();
-        String userSelector = "//a[text()='".concat(username).concat("']");
+        openManageUsersPage();
+        chooseUser(username);
+        clickResetButton();
+    }
 
+    private void openManageUsersPage() {
+        wd.findElement(By.cssSelector("a[href='/mantisbt-1.2.19/manage_user_page.php']")).click();
+    }
+
+    private void chooseUser(String username) {
+        String userSelector = "//a[text()='".concat(username).concat("']");
         wd.findElement(By.xpath(userSelector)).click();
+    }
+
+    private void clickResetButton() {
         wd.findElement(By.cssSelector("input[value='Reset Password']")).click();
     }
 
-    public void finish(String confirmationLink, String password) {
+
+    public void resetPasswordFinish(String confirmationLink, String password) {
         wd.get(confirmationLink);
-        type(By.name("password"), "password");
-        type(By.name("password-confirm"), "password");
+        type(By.name("password"), password);
+        type(By.name("password-confirm"), password);
         click(By.cssSelector("input[value='Update User']"));
     }
 }

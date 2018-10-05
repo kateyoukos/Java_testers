@@ -1,8 +1,10 @@
 package tests;
 
+import appmanager.DbHelper;
 import model.MailMessage;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import model.UserData;
+import model.Users;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.lanwen.verbalregex.VerbalExpression;
 
@@ -12,22 +14,22 @@ import java.util.List;
 
 public class ResetPasswordTests extends TestBase {
 
-
-
     @Test
     public void testResetPassword() throws IOException, MessagingException, InterruptedException {
         app.resetPassword().login(app.getProperty("web.adminLogin"), app.getProperty("web.adminPassword"));
-        String email = String.format("user1@localhost");
-        String user =  String.format("user1");
+        Users users = app.db().users();
+        UserData chosenUser = users.iterator().next();
+        System.out.println(chosenUser + "" + chosenUser.getId());
+        String email = chosenUser.getEmail();
+        String user =  chosenUser.getUsername();
         String password = "password";
 
         //search specific user in users list
         app.resetPassword().resetPasswordPush(user);
 
-
         List<MailMessage> mailMessages = app.mail().waitForMail(1, 10000);
         String confirmationLink = findConfirmationLink(mailMessages, email);
-        app.resetPassword().finish(confirmationLink, password);
+        app.resetPassword().resetPasswordFinish(confirmationLink, password);
     }
 
     private String findConfirmationLink(List<MailMessage> mailMessages, String email) {

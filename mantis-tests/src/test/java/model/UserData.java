@@ -1,6 +1,5 @@
 package model;
 
-import org.hibernate.DuplicateMappingException;
 import org.hibernate.annotations.Type;
 
 import javax.persistence.Column;
@@ -11,18 +10,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "mantis_user_table")
 public class UserData {
-
-    public String email;
-
-    public String getEmail() {
-        return email;
-    }
-
-    public UserData setEmail(String email) {
-        this.email = email;
-        return this;
-    }
-
     @Id
     @Column(name = "id")
     private int id;
@@ -37,7 +24,7 @@ public class UserData {
     }
 
     @Column(name = "username")
-    @Type(type = "string")
+    @Type(type = "text")
     public String username;
 
     public String getUsername() {
@@ -48,11 +35,22 @@ public class UserData {
         this.username = username;
         return this;
     }
+    public String email;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public UserData setEmail(String email) {
+        this.email = email;
+        return this;
+    }
 
     @Override
     public String toString() {
         return "UserData{" +
                 "id=" + id +
+                ", username='" + username + '\'' +
                 '}';
     }
 }
