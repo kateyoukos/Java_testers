@@ -40,6 +40,7 @@ public class ApplicationManager {
 
         dbHelper = new DbHelper();
 
+        //gffgj
         if("".equals(properties.getProperty("selenium.server"))){
             //run tests in different browsers
             if(browser.equals(BrowserType.FIREFOX)){
