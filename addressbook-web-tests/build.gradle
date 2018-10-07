@@ -14,7 +14,10 @@ dependencies {
     compile 'com.cedarsoft.serialization.samples:stax:8.5.1'
     compile 'mysql:mysql-connector-java:8.0.12'
     compile 'org.hibernate:hibernate-core:5.1.12.Final'
+}
 
+test{
+    useTestNG()
 }
 
 
