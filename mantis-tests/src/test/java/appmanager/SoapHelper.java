@@ -1,11 +1,11 @@
 package appmanager;
 
-import biz.futureware.mantis.rpc.soap.client.MantisConnectLocator;
-import biz.futureware.mantis.rpc.soap.client.MantisConnectPortType;
-import biz.futureware.mantis.rpc.soap.client.ProjectData;
+import biz.futureware.mantis.rpc.soap.client.*;
+import model.Issue;
 import model.Project;
 
 import javax.xml.rpc.ServiceException;
+import java.math.BigInteger;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.rmi.RemoteException;
@@ -22,11 +22,32 @@ public class SoapHelper {
     }
 
     public Set<Project> getProjects() throws MalformedURLException, ServiceException, RemoteException {
-        MantisConnectPortType mc = new MantisConnectLocator().getMantisConnectPort(new URL("http://localhost/mantisbt-1.2.19/api/soap/mantisconnect.php"));
+        MantisConnectPortType mc = getMantisConnect();
         ProjectData[] projects = mc.mc_projects_get_user_accessible("administrator", "root");
         return Arrays.asList(projects).stream().map((p) -> new Project()
                 .setId(p.getId().intValue())
                 .setName(p.getName()))
                 .collect(Collectors.toSet());
+    }
+
+    private MantisConnectPortType getMantisConnect() throws ServiceException, MalformedURLException {
+        return new MantisConnectLocator().getMantisConnectPort(new URL("http://localhost/mantisbt-1.2.19/api/soap/mantisconnect.php"));
+    }
+
+    public Issue addIssue(Issue issue) throws MalformedURLException, ServiceException, RemoteException {
+        MantisConnectPortType mc = getMantisConnect();
+        String[] categories = mc.mc_project_get_categories("administrator", "root", BigInteger.valueOf(issue.getProject().getId()));
+        IssueData issueData = new IssueData();
+        issueData.setSummary(issue.getSummary());
+        issueData.setDescription(issue.getDescription());
+        issueData.setProject(new ObjectRef(BigInteger.valueOf(issue.getProject().getId()), issue.getProject().getName()));
+        issueData.setCategory(categories[0]);
+        BigInteger issueId = mc.mc_issue_add("administrator", "root", issueData);
+        IssueData createdIssueData = mc.mc_issue_get("administrator", "root", issueId);
+        return new Issue().setId(createdIssueData.getId().intValue())
+                .setSummary(createdIssueData.getSummary())
+                .setDescription(createdIssueData.getDescription())
+                .setProject(new Project().setId(createdIssueData.getProject().getId().intValue())
+                        .setName(createdIssueData.getProject().getName()));
     }
 }
