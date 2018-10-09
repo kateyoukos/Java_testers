@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f05aaf7-c66f-4510-a788-cfa20f7cc45d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mantis-tests/src/test/java/appmanager/SoapHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mantis-tests/src/test/java/appmanager/SoapHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mantis-tests/src/test/java/model/Issue.java" beforeDir="false" afterPath="$PROJECT_DIR$/mantis-tests/src/test/java/model/Issue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mantis-tests/src/test/java/tests/SoapTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mantis-tests/src/test/java/tests/SoapTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mantis-tests/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/mantis-tests/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -84,8 +85,8 @@
       <file leaf-file-name="SoapTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/tests/SoapTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+            <state relative-caret-position="300">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +97,8 @@
       <file leaf-file-name="Issue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/model/Issue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="130">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <element signature="e#171#172#0" expanded="true" />
                 <element signature="e#196#197#0" expanded="true" />
@@ -112,11 +113,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoapHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SoapHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/appmanager/SoapHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            <state relative-caret-position="258">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/tests/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,8 +140,8 @@
       <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/appmanager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="215">
+              <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1357,7 +1370,6 @@
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/appmanager/DbHelper.java" />
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/appmanager/ResetPasswordHelper.java" />
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/tests/ResetPasswordTests.java" />
-        <option value="$PROJECT_DIR$/mantis-tests/src/test/java/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
         <option value="$PROJECT_DIR$/sandbox/build.gradle" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/resources/local.properties" />
@@ -1369,8 +1381,9 @@
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/model/Project.java" />
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/appmanager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/model/Issue.java" />
-        <option value="$PROJECT_DIR$/mantis-tests/src/test/java/tests/SoapTests.java" />
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/appmanager/SoapHelper.java" />
+        <option value="$PROJECT_DIR$/mantis-tests/src/test/java/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/mantis-tests/src/test/java/tests/SoapTests.java" />
       </list>
     </option>
   </component>
@@ -1387,8 +1400,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2106" />
-    <option name="y" value="81" />
+    <option name="x" value="2162" />
+    <option name="y" value="72" />
     <option name="width" value="1096" />
     <option name="height" value="709" />
   </component>
@@ -1492,7 +1505,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SoapTests">
+  <component name="RunManager" selected="TestNG.SoapTests.isIssueOpen">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -1596,116 +1609,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="launchJavascriptDebuger" value="false" />
     </configuration>
-    <configuration name="DbConnectionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantis-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.DbConnectionTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="DbHelper.users" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantis-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="appmanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="appmanager" />
-      <option name="MAIN_CLASS_NAME" value="appmanager.DbHelper" />
-      <option name="METHOD_NAME" value="users" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="GeoIpServiceTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="soap-sample_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GeoIpServiceTests" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="ResetPasswordTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantis-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ResetPasswordTests" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="SoapTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mantis-tests" />
       <extension name="coverage">
@@ -1722,6 +1625,122 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="SoapTests.isIssueOpen" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantis-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SoapTests" />
+      <option name="METHOD_NAME" value="isIssueOpen" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="SoapTests.isIssueOpen1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantis-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SoapTests" />
+      <option name="METHOD_NAME" value="isIssueOpen1" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="SoapTests.testCategory" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantis-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SoapTests" />
+      <option name="METHOD_NAME" value="testCategory" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestBase.isIssueOpen" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantis-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestBase" />
+      <option name="METHOD_NAME" value="isIssueOpen" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -1845,19 +1864,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="TestNG.ResetPasswordTests" />
-      <item itemvalue="TestNG.DbConnectionTest" />
-      <item itemvalue="TestNG.DbHelper.users" />
-      <item itemvalue="TestNG.GeoIpServiceTests" />
       <item itemvalue="TestNG.SoapTests" />
+      <item itemvalue="TestNG.TestBase.isIssueOpen" />
+      <item itemvalue="TestNG.SoapTests.testCategory" />
+      <item itemvalue="TestNG.SoapTests.isIssueOpen" />
+      <item itemvalue="TestNG.SoapTests.isIssueOpen1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SoapTests.isIssueOpen" />
+        <item itemvalue="TestNG.SoapTests.isIssueOpen1" />
+        <item itemvalue="TestNG.TestBase.isIssueOpen" />
+        <item itemvalue="TestNG.SoapTests.testCategory" />
         <item itemvalue="TestNG.SoapTests" />
-        <item itemvalue="TestNG.GeoIpServiceTests" />
-        <item itemvalue="TestNG.ResetPasswordTests" />
-        <item itemvalue="TestNG.DbConnectionTest" />
-        <item itemvalue="TestNG.DbHelper.users" />
       </list>
     </recent_temporary>
   </component>
@@ -1896,47 +1915,48 @@
       <workItem from="1538900429339" duration="768000" />
       <workItem from="1538945574480" duration="4808000" />
       <workItem from="1538983871014" duration="6721000" />
-      <workItem from="1539069946541" duration="1714000" />
+      <workItem from="1539069946541" duration="5605000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ResetPasswordTests - 2018.10.05 at 12h 49m 45s.xml">
-      <configuration name="ResetPasswordTests" configurationId="TestNG" />
+    <history-entry file="TestBase_isIssueOpen - 2018.10.09 at 11h 46m 34s.xml">
+      <configuration name="TestBase.isIssueOpen" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ResetPasswordTests - 2018.10.05 at 12h 51m 39s.xml">
-      <configuration name="ResetPasswordTests" configurationId="TestNG" />
+    <history-entry file="TestBase_isIssueOpen - 2018.10.09 at 11h 47m 13s.xml">
+      <configuration name="TestBase.isIssueOpen" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GeoIpServiceTests - 2018.10.08 at 12h 27m 50s.xml">
-      <configuration name="GeoIpServiceTests" configurationId="TestNG" />
+    <history-entry file="TestBase_isIssueOpen - 2018.10.09 at 11h 48m 17s.xml">
+      <configuration name="TestBase.isIssueOpen" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GeoIpServiceTests - 2018.10.08 at 12h 29m 19s.xml">
-      <configuration name="GeoIpServiceTests" configurationId="TestNG" />
+    <history-entry file="SoapTests_isIssueOpen - 2018.10.09 at 11h 50m 02s.xml">
+      <configuration name="SoapTests.isIssueOpen" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GeoIpServiceTests - 2018.10.08 at 12h 31m 23s.xml">
-      <configuration name="GeoIpServiceTests" configurationId="TestNG" />
+    <history-entry file="SoapTests_isIssueOpen - 2018.10.09 at 11h 51m 25s.xml">
+      <configuration name="SoapTests.isIssueOpen" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GeoIpServiceTests - 2018.10.08 at 12h 32m 12s.xml">
-      <configuration name="GeoIpServiceTests" configurationId="TestNG" />
+    <history-entry file="SoapTests_isIssueOpen - 2018.10.09 at 11h 52m 11s.xml">
+      <configuration name="SoapTests.isIssueOpen" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GeoIpServiceTests - 2018.10.08 at 12h 32m 48s.xml">
-      <configuration name="GeoIpServiceTests" configurationId="TestNG" />
+    <history-entry file="SoapTests_isIssueOpen1 - 2018.10.09 at 11h 53m 00s.xml">
+      <configuration name="SoapTests.isIssueOpen1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SoapTests - 2018.10.08 at 12h 52m 24s.xml">
-      <configuration name="SoapTests" configurationId="TestNG" />
+    <history-entry file="SoapTests_isIssueOpen1 - 2018.10.09 at 11h 53m 23s.xml">
+      <configuration name="SoapTests.isIssueOpen1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SoapTests - 2018.10.08 at 13h 04m 19s.xml">
-      <configuration name="SoapTests" configurationId="TestNG" />
+    <history-entry file="SoapTests_isIssueOpen1 - 2018.10.09 at 11h 54m 01s.xml">
+      <configuration name="SoapTests.isIssueOpen1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SoapTests - 2018.10.08 at 13h 04m 51s.xml">
-      <configuration name="SoapTests" configurationId="TestNG" />
+    <history-entry file="SoapTests_isIssueOpen - 2018.10.09 at 11h 55m 02s.xml">
+      <configuration name="SoapTests.isIssueOpen" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145024000" />
+    <option name="totallyTimeSpent" value="149144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1956,9 +1976,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3148148" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3148148" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14756447" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21561605" />
       <window_info anchor="right" id="Gradle" order="6" weight="0.24713467" />
       <window_info anchor="right" id="SciView" order="7" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -2267,6 +2287,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2274,6 +2299,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2281,6 +2309,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="43" column="5" selection-start-line="40" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2329,13 +2360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/tests/ResetPasswordTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -2380,8 +2404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/appmanager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="215">
+          <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2390,8 +2414,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/model/Issue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="130">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="e#171#172#0" expanded="true" />
             <element signature="e#196#197#0" expanded="true" />
@@ -2405,20 +2429,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/tests/SoapTests.java">
+    <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/appmanager/SoapHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="258">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/appmanager/SoapHelper.java">
+    <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/tests/SoapTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        <state relative-caret-position="300">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

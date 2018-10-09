@@ -11,6 +11,16 @@ public class Issue {
         return id;
     }
 
+    @Override
+    public String toString() {
+        return "Issue{" +
+                "id=" + id +
+                ", summary='" + summary + '\'' +
+                ", description='" + description + '\'' +
+                ", project=" + project +
+                '}';
+    }
+
     public Issue setId(int id) {
         this.id = id;
         return this;
