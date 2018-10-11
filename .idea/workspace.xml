@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f05aaf7-c66f-4510-a788-cfa20f7cc45d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/rest-sample/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/rest-sample/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/rest-sample/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/out/test/classes/Issue.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-sample/out/test/classes/Issue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/out/test/classes/RestTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-sample/out/test/classes/RestTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-sample/src/test/java/RestTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-sample/src/test/java/RestTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-sample/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-sample/src/test/java/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -91,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestAssuredTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RestAssuredTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/RestAssuredTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+            <state relative-caret-position="340">
+              <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="58" />
               <folding>
                 <element signature="e#584#585#0" expanded="true" />
                 <element signature="e#639#640#0" expanded="true" />
@@ -104,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RestTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/RestTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="47" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="317">
+              <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,8 +123,22 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="300">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/tests/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="51" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1630,10 +1639,10 @@
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/tests/SoapTests.java" />
         <option value="$PROJECT_DIR$/rest-sample/src/test/java/Issue.java" />
-        <option value="$PROJECT_DIR$/rest-sample/src/test/java/RestTests.java" />
-        <option value="$PROJECT_DIR$/rest-sample/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/rest-sample/build.gradle" />
         <option value="$PROJECT_DIR$/rest-sample/src/test/java/RestAssuredTests.java" />
+        <option value="$PROJECT_DIR$/rest-sample/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/rest-sample/src/test/java/RestTests.java" />
       </list>
     </option>
   </component>
@@ -1665,6 +1674,36 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="Java_testers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_testers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_testers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_testers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_testers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="Java_testers" type="b2602c69:ProjectViewProjectNode" />
               <item name="rest-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -1708,16 +1747,16 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-      <recent name="appmanager" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Kate\courses\JavaForTesters\projects\Java_testers\mantis-tests\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="appmanager" />
       <recent name="tests" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Kate\courses\JavaForTesters\projects\Java_testers\mantis-tests\src\test\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+      <recent name="appmanager" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1732,7 +1771,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RestTests">
+  <component name="RunManager" selected="TestNG.RestTests.isIssueOpen">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -1859,6 +1898,29 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="RestTests.isIssueOpen" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-sample_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestTests" />
+      <option name="METHOD_NAME" value="isIssueOpen" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="SoapTests.isIssueOpen" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mantis-tests" />
       <extension name="coverage">
@@ -1902,35 +1964,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.SoapTests" />
       <option name="METHOD_NAME" value="isIssueOpen1" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="SoapTests.testCategory" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantis-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SoapTests" />
-      <option name="METHOD_NAME" value="testCategory" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -2086,18 +2119,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.TestBase.isIssueOpen" />
-      <item itemvalue="TestNG.SoapTests.testCategory" />
       <item itemvalue="TestNG.SoapTests.isIssueOpen" />
       <item itemvalue="TestNG.SoapTests.isIssueOpen1" />
       <item itemvalue="TestNG.RestTests" />
+      <item itemvalue="TestNG.RestTests.isIssueOpen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RestTests.isIssueOpen" />
         <item itemvalue="TestNG.RestTests" />
         <item itemvalue="TestNG.SoapTests.isIssueOpen" />
         <item itemvalue="TestNG.SoapTests.isIssueOpen1" />
         <item itemvalue="TestNG.TestBase.isIssueOpen" />
-        <item itemvalue="TestNG.SoapTests.testCategory" />
       </list>
     </recent_temporary>
   </component>
@@ -2137,44 +2170,44 @@
       <workItem from="1538945574480" duration="4808000" />
       <workItem from="1538983871014" duration="6721000" />
       <workItem from="1539069946541" duration="9978000" />
-      <workItem from="1539241546257" duration="491000" />
+      <workItem from="1539241546257" duration="2113000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SoapTests_isIssueOpen - 2018.10.09 at 11h 51m 25s.xml">
-      <configuration name="SoapTests.isIssueOpen" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SoapTests_isIssueOpen - 2018.10.09 at 11h 52m 11s.xml">
-      <configuration name="SoapTests.isIssueOpen" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SoapTests_isIssueOpen1 - 2018.10.09 at 11h 53m 00s.xml">
-      <configuration name="SoapTests.isIssueOpen1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SoapTests_isIssueOpen1 - 2018.10.09 at 11h 53m 23s.xml">
-      <configuration name="SoapTests.isIssueOpen1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SoapTests_isIssueOpen1 - 2018.10.09 at 11h 54m 01s.xml">
-      <configuration name="SoapTests.isIssueOpen1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SoapTests_isIssueOpen - 2018.10.09 at 11h 55m 02s.xml">
-      <configuration name="SoapTests.isIssueOpen" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SoapTests_isIssueOpen - 2018.10.09 at 12h 42m 00s.xml">
-      <configuration name="SoapTests.isIssueOpen" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RestTests - 2018.10.09 at 12h 42m 20s.xml">
-      <configuration name="RestTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RestTests - 2018.10.09 at 12h 45m 45s.xml">
       <configuration name="RestTests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="RestTests - 2018.10.09 at 13h 07m 29s.xml">
       <configuration name="RestTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="RestTests_isIssueOpen - 2018.10.11 at 10h 32m 15s.xml">
+      <configuration name="RestTests.isIssueOpen" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RestTests - 2018.10.11 at 10h 34m 09s.xml">
+      <configuration name="RestTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RestTests - 2018.10.11 at 10h 34m 33s.xml">
+      <configuration name="RestTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RestTests - 2018.10.11 at 10h 35m 57s.xml">
+      <configuration name="RestTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RestTests_isIssueOpen - 2018.10.11 at 10h 36m 24s.xml">
+      <configuration name="RestTests.isIssueOpen" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RestTests_isIssueOpen - 2018.10.11 at 10h 37m 17s.xml">
+      <configuration name="RestTests.isIssueOpen" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RestTests_isIssueOpen - 2018.10.11 at 10h 37m 33s.xml">
+      <configuration name="RestTests.isIssueOpen" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RestTests_isIssueOpen - 2018.10.11 at 10h 38m 01s.xml">
+      <configuration name="RestTests.isIssueOpen" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154008000" />
+    <option name="totallyTimeSpent" value="155630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
@@ -2193,19 +2226,19 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39814815" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3015873" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3148148" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3148148" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21848138" />
       <window_info anchor="right" id="Gradle" order="6" weight="0.24713467" />
       <window_info anchor="right" id="SciView" order="7" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3015873" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2587,27 +2620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="51" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/Issue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2618,23 +2634,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/RestTests.java">
+    <entry file="file://$PROJECT_DIR$/mantis-tests/src/test/java/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="47" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="382">
+          <caret line="51" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/RestAssuredTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        <state relative-caret-position="340">
+          <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="58" />
           <folding>
             <element signature="e#584#585#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/RestTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
